@@ -17,7 +17,7 @@ icon = "brand-github"
 
 [[social]]
 identifier = "instagram"
-name = "Instagram"
+name = "Personal Instagram"
 url = "https://instagram.com/mvphotolog"
 
 [social.params]
