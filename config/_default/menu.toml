@@ -15,10 +15,10 @@ url = "https://github.com/mvkassak/request-do"
 [social.params]
 icon = "brand-github"
 
-[[social]]
-identifier = "instagram"
-name = "Personal Instagram"
-url = "https://instagram.com/mvphotolog"
+#[[social]]
+#identifier = "instagram"
+#name = "Personal Instagram"
+#url = "https://instagram.com/mvphotolog"
 
-[social.params]
-icon = "brand-instagram"
+#[social.params]
+#icon = "brand-instagram"
