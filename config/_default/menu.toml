@@ -10,7 +10,7 @@
 [[social]]
 identifier = "github"
 name = "GitHub"
-url = "https://github.com/mvkassak/request-do"
+url = "https://github.com/mvkassak/"
 
 [social.params]
 icon = "brand-github"
@@ -18,7 +18,7 @@ icon = "brand-github"
 [[social]]
 identifier = "linkedin"
 name = "Linkedin"
-url = "https://linkedin.com/in/mvkassak"
+url = "https://linkedin.com/in/mvkassak/"
 
 [social.params]
 icon = "brand-linkedin"
