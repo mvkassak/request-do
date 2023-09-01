@@ -6,7 +6,7 @@ favicon = "/favicon-2.png"
 
 [footer]
 since = 2023
-customText = "Marcos Kassak"
+customText = ""
 
 [dateFormat]
 published = "Jan 02, 2006"
@@ -25,9 +25,9 @@ src = "img/avatar2.png"
 math = false
 readingTime = true
 
-#[article.license]
-#enabled = true
-#default = "Licensed under CC BY-NC-SA 4.0"
+[article.license]
+enabled = true
+default = "Licensed under CC BY-NC-SA 4.0"
 
 ## Widgets
 [[widgets.homepage]]
