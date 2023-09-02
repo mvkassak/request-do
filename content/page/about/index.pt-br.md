@@ -1,6 +1,7 @@
 ---
 title: Sobre
 description: Um pouco da minha história
+slug: sobre-mim
 date: '2019-02-28'
 aliases:
   - about-us
@@ -15,7 +16,7 @@ menu:
             icon: user
 ---
 
-# Teste
+## Teste
 
 Aaaaa
 

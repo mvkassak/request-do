@@ -1,7 +1,8 @@
 ---
 title: About
-description: Hugo, the world's fastest framework for building websites
+description: A little bit about my background
 date: '2019-02-28'
+slug: about-me
 aliases:
   - about-us
   - about-hugo
@@ -15,7 +16,7 @@ menu:
             icon: user
 ---
 
-# Test
+## Test
 
 Aaaaa
 
