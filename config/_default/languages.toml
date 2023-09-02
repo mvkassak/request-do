@@ -2,11 +2,11 @@
 [en]
 languageName = "English"
 languagedirection = "ltr"
-title = "English"
+title = ""
 weight = 1
 
 [pt-br]
 languageName = "Portuguese"
 languagedirection = "ltr"
-title = "Portuguese"
+title = ""
 weight = 2
