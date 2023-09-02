@@ -1,6 +1,6 @@
 ---
-title: Example Category
-description: A description of this category
+title: Categoria de Exemplo
+description: Descrição dessa categoria de exemplo
 image:
 
 # Badge style
