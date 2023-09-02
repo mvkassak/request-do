@@ -2,5 +2,11 @@
 [en]
 languageName = "English"
 languagedirection = "ltr"
-title = "Example Site"
+title = "English"
 weight = 1
+
+[pt-br]
+languageName = "Portuguese"
+languagedirection = "ltr"
+title = "Portuguese"
+weight = 2
