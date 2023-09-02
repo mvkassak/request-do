@@ -1,4 +1,4 @@
-## Request.do - A ServiceNow Blog
+# Request.do - A ServiceNow Blog
 
 This is a personal project that was for a long time in my backlog, and now it seems to be happening! Yay!
 
@@ -10,11 +10,8 @@ I problaby won't have a frequency and the posts will be happening as I stumble a
 
 If you want to contact me, feel free:
 
-<details>
-  <summary>My Links</summary><br>
+My Links
 
   [Linkedin](https://linkedin.com/in/mvkassak)
 
   [Now Learning Profile](https://nowlearning.servicenow.com/lxp/en/pages/nl-public-resume?id=nl_public&user=mvkassak)
-
-</details>
