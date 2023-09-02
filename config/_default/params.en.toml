@@ -19,7 +19,7 @@ subtitle = "Just some thoughts on my ServiceNow journey..."
 [sidebar.avatar]
 enabled = true
 local = true
-src = "img/avatar2.png"
+src = "img/avatar3.png"
 
 [article]
 math = false
