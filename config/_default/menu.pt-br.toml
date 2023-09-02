@@ -8,7 +8,7 @@ weight = 1
 
 [main.params]
 icon = "home"
-newtab = true
+newtab = false
 
 [[social]]
 identifier = "github"
@@ -33,3 +33,11 @@ url = "https://linkedin.com/in/mvkassak/"
 
 [social.params]
 icon = "brand-linkedin"
+
+[[social]]
+identifier = "ServiceNow"
+name = "ServiceNow CV"
+url = "https://nowlearning.servicenow.com/lxp?id=nl_public&user=marcossant9619f2"
+
+[social.params]
+icon = "user-circle"

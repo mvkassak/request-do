@@ -24,3 +24,11 @@ url = "https://linkedin.com/in/mvkassak/"
 
 [social.params]
 icon = "brand-linkedin"
+
+[[social]]
+identifier = "ServiceNow"
+name = "ServiceNow CV"
+url = "https://nowlearning.servicenow.com/lxp?id=nl_public&user=mvkassak"
+
+[social.params]
+icon = "user-circle"
