@@ -1,5 +1,5 @@
 ---
-title: Categoria de Exemplo
+title: Categoria de exemplo
 description: Descrição dessa categoria de exemplo
 image:
 

@@ -1,7 +1,8 @@
 ---
-title: Example Category
+title: Example category
 description: A description of this category
 image:
+comments: false
 
 # Badge style
 style:

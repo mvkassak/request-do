@@ -6,7 +6,7 @@ favicon = "/favicon-2.png"
 
 [footer]
 since = 2023
-customText = "Custom text test"
+customText = ""
 
 [dateFormat]
 published = "Jan 02, 2006"
