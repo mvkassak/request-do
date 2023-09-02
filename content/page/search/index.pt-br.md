@@ -1,6 +1,6 @@
 ---
-title: "Search"
-slug: "search"
+title: "Busca"
+slug: "busca"
 layout: "search"
 outputs:
     - html
