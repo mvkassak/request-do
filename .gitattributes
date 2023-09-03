@@ -114,3 +114,9 @@
 
 # Apply override to all files in the directory
 *.md linguist-detectable
+# Whitespace exclusions
+*.txt whitespace=-blank-at-eof,-space-before-tab,-tab-in-indent,trailing-space,tabwidth=2
+*.md whitespace=-blank-at-eof,-space-before-tab,-tab-in-indent,trailing-space,tabwidth=2
+*.js whitespace=-blank-at-eof,-space-before-tab,-tab-in-indent,trailing-space,tabwidth=2
+*.ts whitespace=-blank-at-eof,-space-before-tab,-tab-in-indent,trailing-space,tabwidth=2
+*.json whitespace=-blank-at-eof,-space-before-tab,-tab-in-indent,trailing-space,tabwidth=2
