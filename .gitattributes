@@ -1,2 +1,1 @@
-*.html linguist-detectable=false
-*.dockerfile linguist-detectable=false
+*.Dockerfile linguist-detectable=false
