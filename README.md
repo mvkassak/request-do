@@ -6,11 +6,7 @@ I problaby won't have a frequency and the posts will be happening as I stumble a
 
 > Really happy to be finally starting this and hope I can help people out there!!
 
-## Contact
-
-If you want to contact me, feel free:
-
-My Links
+## My Links
 
   [Blog](https://request.do/)
 
