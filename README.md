@@ -1,16 +1,14 @@
 # Request.do - A ServiceNow Blog
 
-This is a personal project that was for a long time in my backlog, and now it seems to be happening! Yay!
+I'm excited to share that I'm finally tackling a personal project that's been on my to-do list for a while!
 
-I problaby won't have a frequency and the posts will be happening as I stumble across stuff that I need to dig on it.
+I will post whenever I encounter something that requires further investigation, with no set schedule.
 
-> Really happy to be finally starting this and hope I can help people out there!!
+> Let's get started! I'm eager to lend a hand and make a positive impact on anyone who may need it.
 
-## Contact
+## My Links
 
-If you want to contact me, feel free:
-
-My Links
+  [Blog](https://request.do/)
 
   [Linkedin](https://linkedin.com/in/mvkassak)
 
