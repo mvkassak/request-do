@@ -12,6 +12,8 @@ If you want to contact me, feel free:
 
 My Links
 
+  [Blog](https://request.do/).
+
   [Linkedin](https://linkedin.com/in/mvkassak)
 
   [Now Learning Profile](https://nowlearning.servicenow.com/lxp/en/pages/nl-public-resume?id=nl_public&user=mvkassak)
