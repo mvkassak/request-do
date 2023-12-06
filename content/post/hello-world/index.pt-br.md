@@ -9,6 +9,7 @@ categories:
 tags:
     - Boas vindas
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
+draft: true
 ---
 
 Esse é o meu primeiro post em markdown!
