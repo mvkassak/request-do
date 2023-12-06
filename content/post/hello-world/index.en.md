@@ -5,6 +5,7 @@ date: 2023-03-06 00:00:00+0000
 image: cover.jpg
 categories:
     - Example category
+    - Quick tips
 tags:
     - Welcome
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)

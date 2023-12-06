@@ -1,7 +1,8 @@
 ---
 title: Categoria de exemplo
-description: Descrição dessa categoria de exemplo
+description: A description of this category
 image:
+comments: false
 
 # Badge style
 style:
