@@ -1,11 +1,10 @@
 ---
 title: About
 description: A little bit about my background
-date: '2019-02-28'
+date: '2023-12-06'
 slug: about-me
 aliases:
   - about-us
-  - about-hugo
   - contact
 license: CC BY-NC-ND
 lastmod: '2020-10-09'
@@ -16,14 +15,10 @@ menu:
             icon: user
 ---
 
-## Test
+## Nice to meet you!
 
-Aaaaa
+I am an accomplished ServiceNow Developer and Pre-Sales Consultant, bringing more than seven years of combined experience to the table - I take pride in having successfully navigated through many ServiceNow projects across a wide range of industries, all while helping clients align their strategic objectives with optimal technological solutions.
 
-## Test table of contents
+## How can I reach out?
 
-Bbbbbb
-
-### Test 
-
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+You can drop me a message on LinkedIn, I'll be happy to help.

@@ -1,7 +1,7 @@
 ---
 title: Desbloqueando sessões com um único comando
 description: Descubra como o comando cancel_my_transaction.do pode libertar sessões travadas na ServiceNow instantaneamente. Saiba como executá-lo e explore seus benefícios e considerações importantes para garantir uma utilização eficaz desta ferramenta essencial.
-date: 2023-03-06 00:00:00+0000
+date: '2023-12-03'
 image: cover.jpg
 categories:
     - Dicas rapidas

@@ -1,7 +1,7 @@
 ---
 title: Unlocking Sessions with a Single Command
 description: Explore the power of the cancel_my_transaction.do command that swiftly releases frozen sessions within ServiceNow. Learn its execution process, delve into its benefits, and consider essential aspects for effective utilization of this vital tool.
-date: 2023-03-06 00:00:00+0000
+date: '2023-12-03'
 image: cover.jpg
 categories:
     - Quick tips
