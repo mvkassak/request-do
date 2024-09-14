@@ -17,8 +17,8 @@ menu:
 
 ## Nice to meet you!
 
-I am an accomplished ServiceNow Developer and Pre-Sales Consultant, bringing more than seven years of combined experience to the table - I take pride in having successfully navigated through many ServiceNow projects across a wide range of industries, all while helping clients align their strategic objectives with optimal technological solutions.
+I started with ServiceNow in mid-2016 when a friend introduced me to the platform, which was already growing significantly at that time, and I took the opportunity to dive in headfirst. Today, I primarily work in Architecture and hold several certifications like CTA, x5 CIS, ITIL, and many others… My focus now is to share all the knowledge I have acquired through various communities, documentation, the old wiki, real projects, etc., so that others can solve their day-to-day problems and also be inspired to want more from this ecosystem!
 
 ## How can I reach out?
 
-You can drop me a message on LinkedIn, I'll be happy to help.
+You can drop me a message on LinkedIn, I'll be happy to chat.
