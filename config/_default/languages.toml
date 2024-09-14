@@ -2,11 +2,11 @@
 [en]
 languageName = "English"
 languagedirection = "ltr"
-title = "Request.do"
+title = "Request.do - A ServiceNow Blog"
 weight = 1
 
 [pt-br]
 languageName = "Portuguese"
 languagedirection = "ltr"
-title = "Request.do"
+title = "Request.do - A ServiceNow Blog"
 weight = 2
