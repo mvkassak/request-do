@@ -2,7 +2,7 @@
 title: Certified Technical Architect Journey
 description: This article holds all quick links to all weeks and final considerations of my CTA Journey.
 date: '2024-03-03'
-image: cta.png
+image: cta_res.jpeg
 categories:
     - Certifications
 tags:
