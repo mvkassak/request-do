@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Request.do - A ServiceNow Blog</title><link>https://request.do/</link><description>Recent content on Request.do - A ServiceNow Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 03 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://request.do/index.xml" rel="self" type="application/rss+xml"/><item><title>Certified Technical Architect Kickoff &amp; Week 1</title><link>https://request.do/p/certified-technical-architect-kickoff-week-1/</link><pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate><guid>https://request.do/p/certified-technical-architect-kickoff-week-1/</guid><description>&lt;img src="https://request.do/p/certified-technical-architect-kickoff-week-1/cta.png" alt="Featured image of post Certified Technical Architect Kickoff &amp; Week 1" />&lt;p>What an amazing first week! The kickoff meeting was exactly what I was expecting, with lots of energy from the CTA Program Team to showcase everything. I couldn&amp;rsquo;t be more excited for the weeks to come.&lt;/p>
+&lt;h2 id="about-the-cta">About the CTA
+&lt;/h2>&lt;p>You might be wondering, &amp;ldquo;What is a Technical Architect?&amp;rdquo;&amp;hellip;&lt;/p>
+&lt;p>The CTA is a valued partner and trusted technical advisor on an organization&amp;rsquo;s digital transformation journey.&lt;/p>
+&lt;p>What about some of its responsibilities?&lt;/p>
+&lt;ul>
+&lt;li>Identify the elements of an enterprise technical strategy and plan&lt;/li>
+&lt;li>Recognize the impact of technical decisions on outcomes&lt;/li>
+&lt;li>Discuss how to assess platform health
+The Certified Technical Architect (CTA) is part of the Expert Programs, along with the Certified Master Architect certification:&lt;/li>
+&lt;/ul>
+&lt;h2 id="registration">Registration
+&lt;/h2>&lt;p>It was tricky to get my spot - I think America&amp;rsquo;s region sold out in minutes. If you are planning on taking this certification or CMA, be prepared because it feels like you&amp;rsquo;re getting a famous concert ticket!! 🤣&lt;/p>
+&lt;p>Pro tip: My setup was a laptop and a computer, one at the CTA Catalog Item (Now Learning) and another in the category level, both on different networks - I already knew what the registration form would ask me, so I prepared a draft doc with everything and when the page loaded I promptly pasted everything there.&lt;/p>
+&lt;p>&amp;ndash; Edit: CTA enrollment has changed for good, I believe&amp;hellip; here&amp;rsquo;s the documentation:&lt;/p>
+&lt;h2 id="about-the-first-week">About the First Week:
+&lt;/h2>&lt;p>At the kickoff we got to know everyone, we had a deep dive into the program and the case study, and also got the chance to meet with our group! We came up with a fun name called Inferno Squad (why not? lol).&lt;/p>
+&lt;p>After reviewing this week&amp;rsquo;s case study, we had to present to the client&amp;rsquo;s management about our team, skills, some understanding of the challenges they might face in their project, and proposed solutions.
+The main focus was:&lt;/p>
+&lt;ul>
+&lt;li>Architect responsibilities&lt;/li>
+&lt;li>Presentation skills&lt;/li>
+&lt;/ul>
+&lt;p>Shoutout to Dan Franko for delivering an excellent presentation this week!&lt;/p>
+&lt;h2 id="key-takeaways">Key takeaways
+&lt;/h2>&lt;ul>
+&lt;li>My first big shock was that if you don&amp;rsquo;t self-organize effectively, you probably won&amp;rsquo;t perform well in your presentation and understanding of the case study.&lt;/li>
+&lt;li>From the peer reviews, I noticed some things that I&amp;rsquo;ll consider putting some work into moving forward:&lt;/li>
+&lt;li>Filler words, it&amp;rsquo;s important not to use them often.&lt;/li>
+&lt;li>Looking straight at the camera 100% of the time seems weird - find the perfect timings.&lt;/li>
+&lt;li>Using certain verbiage may lead you to stray from the camera and look at the script, keep it simple.&lt;/li>
+&lt;li>Transitions like &amp;ldquo;Now I&amp;rsquo;ll talk about&amp;rdquo;, and “This slide is about” - find a way to connect smoothly with the slides.&lt;/li>
+&lt;li>To receive feedback and how address it properly.&lt;/li>
+&lt;li>Teamwork is also essential for success. Our group consists of six highly experienced members who are well-versed in the ServiceNow platform. Our prep meetings to discuss the week&amp;rsquo;s case study are beyond valuable, they provide us with insights, feedback, and a better understanding of the whole picture. This collaboration is crucial for our journey ahead.&lt;/li>
+&lt;/ul>
+&lt;p>Although I was not scheduled to present this week, I reviewed the slides that were prepared and recorded myself presenting to identify areas for improvement, so that I can be fully prepared when it is my turn.&lt;/p>
+&lt;hr></description></item><item><title>About</title><link>https://request.do/about-me/</link><pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate><guid>https://request.do/about-me/</guid><description>&lt;h2 id="nice-to-meet-you">Nice to meet you!
+&lt;/h2>&lt;p>I started with ServiceNow in mid-2016 when a friend introduced me to the platform, which was already growing significantly at that time, and I took the opportunity to dive in headfirst. Today, I primarily work in Architecture and hold several certifications like CTA, x5 CIS, ITIL, and many others… My focus now is to share all the knowledge I have acquired through various communities, documentation, the old wiki, real projects, etc., so that others can solve their day-to-day problems and also be inspired to want more from this ecosystem!&lt;/p>
+&lt;h2 id="how-can-i-reach-out">How can I reach out?
+&lt;/h2>&lt;p>You can drop me a message on LinkedIn, I&amp;rsquo;ll be happy to chat.&lt;/p></description></item><item><title>Unlocking Sessions with a Single Command</title><link>https://request.do/p/unlocking-sessions-with-a-single-command/</link><pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate><guid>https://request.do/p/unlocking-sessions-with-a-single-command/</guid><description>&lt;img src="https://request.do/p/unlocking-sessions-with-a-single-command/cover.jpg" alt="Featured image of post Unlocking Sessions with a Single Command" />&lt;p>Have you ever found yourself stuck in a frozen session within ServiceNow? Fear not! The &lt;code>cancel_my_transaction.do&lt;/code> command comes to your rescue, allowing you to swiftly regain control.&lt;/p>
+&lt;h2 id="understanding-the-power-of-cancel_my_transactiondo">Understanding the Power of cancel_my_transaction.do
+&lt;/h2>&lt;h3 id="what-is-cancel_my_transactiondo">What is cancel_my_transaction.do?
+&lt;/h3>&lt;p>The &lt;code>cancel_my_transaction.do&lt;/code> command acts as a lifeline in ServiceNow. It serves as a solution to unfreeze a locked session, enabling users to resume work without delays.&lt;/p>
+&lt;h3 id="how-to-execute-cancel_my_transactiondo">How to Execute cancel_my_transaction.do
+&lt;/h3>&lt;p>Executing this command is simpler than you might think. Just append &lt;code>/cancel_my_transaction.do&lt;/code> to your ServiceNow URL, and voilà! Your session is released from its frozen state.&lt;/p>
+&lt;h2 id="benefits-and-considerations">Benefits and Considerations
+&lt;/h2>&lt;h3 id="benefits-of-using-cancel_my_transactiondo">Benefits of Using cancel_my_transaction.do
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Instant Recovery&lt;/strong>: Quickly regain access to your session, minimizing downtime.&lt;/li>
+&lt;li>&lt;strong>User-Friendly&lt;/strong>: The command is straightforward and easy to execute for any ServiceNow user.&lt;/li>
+&lt;/ul>
+&lt;h3 id="considerations-to-keep-in-mind">Considerations to Keep in Mind
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Potential Data Loss&lt;/strong>: Exercise caution as the command cancels pending transactions, potentially leading to data loss if not used judiciously.&lt;/li>
+&lt;li>&lt;strong>Impact on Workflows&lt;/strong>: While resolving frozen sessions, ongoing transactions may be affected, so assess the impact before executing.&lt;/li>
+&lt;/ul>
+&lt;h2 id="conclusion">Conclusion
+&lt;/h2>&lt;p>The &lt;code>cancel_my_transaction.do&lt;/code> command serves as a swift remedy for frozen sessions in ServiceNow. Remember, with great power comes great responsibility. Use it wisely to unlock your session and resume your workflow seamlessly.&lt;/p>
+&lt;hr></description></item><item><title>Archives</title><link>https://request.do/archives/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://request.do/archives/</guid><description/></item><item><title>Links</title><link>https://request.do/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://request.do/links/</guid><description>&lt;p>To use this feature, add &lt;code>links&lt;/code> section to frontmatter.&lt;/p>
+&lt;p>This page&amp;rsquo;s frontmatter:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">links&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">title&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">GitHub&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">description&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">GitHub is the world&amp;#39;s largest software development platform.&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">website&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://github.com&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">image&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">title&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">TypeScript&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">description&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">website&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://www.typescriptlang.org&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">image&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">ts-logo-128.jpg&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;code>image&lt;/code> field accepts both local and external images.&lt;/p></description></item><item><title>Quick tips</title><link>https://request.do/categories/quick-tips/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://request.do/categories/quick-tips/</guid><description/></item><item><title>Search</title><link>https://request.do/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://request.do/search/</guid><description/></item></channel></rss>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Request.do - A ServiceNow Blog</title><link>https://request.do/pt-br/</link><description>Recent content on Request.do - A ServiceNow Blog</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Sun, 03 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://request.do/pt-br/index.xml" rel="self" type="application/rss+xml"/><item><title>Sobre</title><link>https://request.do/pt-br/sobre-mim/</link><pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate><guid>https://request.do/pt-br/sobre-mim/</guid><description>&lt;h2 id="olá">Olá!
+&lt;/h2>&lt;p>Comecei em meados de 2016 com ServiceNow quando meu amigo me introduziu a essa plataforma, que já estava crescendo bastante naquela época, e peguei essa oportunidade para mergulhar de cabeça. Hoje trabalho principalmente na área de Arquitetura e tenho diversas certificações como CTA, x5 CIS, ITIL e várias outras… meu foco agora é em compartilhar todo esse conhecimento que eu consegui adquirir através de outras comunidades, docs, antiga wiki, projetos reais e etc., para que outras pessoas também consigam resolver seus problemas do dia a dia e também se inspirar a querer mais desse ecossistema!&lt;/p>
+&lt;h2 id="como-posso-entrar-em-contato">Como posso entrar em contato?
+&lt;/h2>&lt;p>Você pode me enviar uma mensagem pelo LinkedIn mesmo, costumo responder rápido!&lt;/p>
+&lt;hr></description></item><item><title>Desbloqueando sessões com um único comando</title><link>https://request.do/pt-br/p/desbloqueando-sess%C3%B5es-com-um-%C3%BAnico-comando/</link><pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate><guid>https://request.do/pt-br/p/desbloqueando-sess%C3%B5es-com-um-%C3%BAnico-comando/</guid><description>&lt;img src="https://request.do/p/unlocking-sessions-with-a-single-command/cover.jpg" alt="Featured image of post Desbloqueando sessões com um único comando" />&lt;p>Já se viu preso em uma sessão congelada na ServiceNow? Não se preocupe! O comando &lt;code>cancel_my_transaction.do&lt;/code> vem em seu auxílio, permitindo que você recupere o controle rapidamente.&lt;/p>
+&lt;h2 id="entendendo-o-poder-do-cancel_my_transactiondo">Entendendo o Poder do cancel_my_transaction.do
+&lt;/h2>&lt;h3 id="o-que-é-o-cancel_my_transactiondo">O que é o cancel_my_transaction.do?
+&lt;/h3>&lt;p>O comando &lt;code>cancel_my_transaction.do&lt;/code> atua como um salva-vidas na ServiceNow. Ele serve como uma solução para descongelar uma sessão travada, permitindo que os usuários retomem o trabalho sem atrasos.&lt;/p>
+&lt;h3 id="como-executar-o-cancel_my_transactiondo">Como Executar o cancel_my_transaction.do
+&lt;/h3>&lt;p>Executar esse comando é mais simples do que você imagina. Basta adicionar &lt;code>/cancel_my_transaction.do&lt;/code> à URL da sua ServiceNow e pronto! Sua sessão é liberada do estado congelado.&lt;/p>
+&lt;h2 id="benefícios-e-considerações">Benefícios e Considerações
+&lt;/h2>&lt;h3 id="benefícios-de-usar-o-cancel_my_transactiondo">Benefícios de Usar o cancel_my_transaction.do
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Recuperação Instantânea&lt;/strong>: Recupere rapidamente o acesso à sua sessão, minimizando o tempo de inatividade.&lt;/li>
+&lt;li>&lt;strong>Fácil de Usar&lt;/strong>: O comando é direto e fácil de executar para qualquer usuário da ServiceNow.&lt;/li>
+&lt;/ul>
+&lt;h3 id="considerações-importantes">Considerações Importantes
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Possível Perda de Dados&lt;/strong>: Tome cuidado, já que o comando cancela transações pendentes, podendo levar à perda de dados se não for usado com parcimônia.&lt;/li>
+&lt;li>&lt;strong>Impacto nos Fluxos de Trabalho&lt;/strong>: Ao resolver sessões congeladas, transações em andamento podem ser afetadas, então avalie o impacto antes de executar.&lt;/li>
+&lt;/ul>
+&lt;h2 id="conclusão">Conclusão
+&lt;/h2>&lt;p>O comando &lt;code>cancel_my_transaction.do&lt;/code> atua como um remédio rápido para sessões congeladas na ServiceNow. Lembre-se, com grande poder vem grande responsabilidade. Use-o com sabedoria para desbloquear sua sessão e retomar seu fluxo de trabalho sem problemas.&lt;/p>
+&lt;hr></description></item><item><title>Arquivos</title><link>https://request.do/pt-br/arquivo/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://request.do/pt-br/arquivo/</guid><description/></item><item><title>Busca</title><link>https://request.do/pt-br/busca/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://request.do/pt-br/busca/</guid><description/></item><item><title>Dicas rapidas</title><link>https://request.do/pt-br/categories/quick-tips/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://request.do/pt-br/categories/quick-tips/</guid><description/></item><item><title>Links</title><link>https://request.do/pt-br/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://request.do/pt-br/links/</guid><description>&lt;p>To use this feature, add &lt;code>links&lt;/code> section to frontmatter.&lt;/p>
+&lt;p>This page&amp;rsquo;s frontmatter:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">links&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">title&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">GitHub&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">description&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">GitHub is the world&amp;#39;s largest software development platform.&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">website&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://github.com&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">image&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">title&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">TypeScript&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">description&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">website&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://www.typescriptlang.org&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">image&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">ts-logo-128.jpg&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;code>image&lt;/code> field accepts both local and external images.&lt;/p></description></item></channel></rss>
