@@ -75,15 +75,15 @@ enabled = true
 
 ## Comments
 [comments]
-enabled = true
-provider = "disqusjs"
+enabled = false
+provider = ""
 
 [comments.disqusjs]
-shortname = "request-do"
-apiUrl = "https://disqus.com/api/oauth/2.0/authorize/"
-apiKey = "eHMiMEv8DHnZxnJnfOrsFaolopSDove8TD795hTBA4Q4FA6dOUnlQuHPNAIT8B89"
-admin = "disqus_jNKDhniDKQ"
-adminLabel = "Mod"
+shortname = ""
+apiUrl = ""
+apiKey = ""
+admin = ""
+adminLabel = ""
 
 [comments.utterances]
 repo = ""
