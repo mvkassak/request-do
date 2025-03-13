@@ -2,7 +2,7 @@ googleAnalytics = "G-N65RY7P368"
 # Change baseurl before deploy
 baseurl = "https://request.do"
 languageCode = "en-us"
-paginate = 5
+pagination.pagerSize = 5
 title = "Request.do - A ServiceNow Blog"
 
 # Theme i18n support
