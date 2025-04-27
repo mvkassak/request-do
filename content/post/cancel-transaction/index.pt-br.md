@@ -1,41 +1,45 @@
 ---
 title: Desbloqueando sessões com um único comando
-description: Descubra como o comando cancel_my_transaction.do pode libertar sessões travadas na ServiceNow instantaneamente. Saiba como executá-lo e explore seus benefícios e considerações importantes para garantir uma utilização eficaz desta ferramenta essencial.
+description:
 date: '2023-12-03'
 image: cover.jpg
 categories:
-    - Dicas rapidas
+    - Dicas
 tags:
     - Sessão
 ---
 
-Já se viu preso em uma sessão congelada na ServiceNow? Não se preocupe! O comando `cancel_my_transaction.do` vem em seu auxílio, permitindo que você recupere o controle rapidamente.
+Já viu uma barrinha amarela rodando escrito Running Transaction e aquele contador não para de subir nunca?
+Pois é, eu já vi também — principalmente quando estou rodando uns scripts meio suspeitos no background...
 
-## Entendendo o Poder do cancel_my_transaction.do
+## O que é o `cancel_my_transaction.do`?
 
-### O que é o cancel_my_transaction.do?
+É basicamente o comando que vai te salvar quando estiver em uma sessão travada por muito tempo.  
+Quando o ServiceNow congela — normalmente por causa de uma transação que demorou demais — esse comando manda a plataforma cancelar o que está travando tudo, e assim você consegue voltar a trabalhar sem precisar dar refresh ou fazer logout.
 
-O comando `cancel_my_transaction.do` atua como um salva-vidas na ServiceNow. Ele serve como uma solução para descongelar uma sessão travada, permitindo que os usuários retomem o trabalho sem atrasos.
+## Como usar
 
-### Como Executar o cancel_my_transaction.do
+É super simples:
 
-Executar esse comando é mais simples do que você imagina. Basta adicionar `/cancel_my_transaction.do` à URL da sua ServiceNow e pronto! Sua sessão é liberada do estado congelado.
+- Pegue a URL atual do seu ServiceNow e adicione `/cancel_my_transaction.do` no final.
+- Aperte Enter — e pronto, sua sessão deve destravar quase que na hora.
 
-## Benefícios e Considerações
+Exemplo:  
+`https://suainstancia.service-now.com/cancel_my_transaction.do`
 
-### Benefícios de Usar o cancel_my_transaction.do
+## Pontos de atenção
 
-- **Recuperação Instantânea**: Recupere rapidamente o acesso à sua sessão, minimizando o tempo de inatividade.
-- **Fácil de Usar**: O comando é direto e fácil de executar para qualquer usuário da ServiceNow.
+Antes de sair usando, só um aviso rápido:
 
-### Considerações Importantes
+- **Você pode perder trabalho não salvo.**  
+  Se você cancelar uma transação que estava no meio de salvar ou processar dados, pode perder essas informações.
+- **Pode impactar workflows.**  
+  Se a sessão travada fazia parte de um processo maior (como uma aprovação ou um script rodando em background), cancelar pode afetar o andamento.
 
-- **Possível Perda de Dados**: Tome cuidado, já que o comando cancela transações pendentes, podendo levar à perda de dados se não for usado com parcimônia.
-- **Impacto nos Fluxos de Trabalho**: Ao resolver sessões congeladas, transações em andamento podem ser afetadas, então avalie o impacto antes de executar.
+Então é isso — use quando precisar, mas use com consciência.
 
-## Conclusão
+## Considerações finais
 
-O comando `cancel_my_transaction.do` atua como um remédio rápido para sessões congeladas na ServiceNow. Lembre-se, com grande poder vem grande responsabilidade. Use-o com sabedoria para desbloquear sua sessão e retomar seu fluxo de trabalho sem problemas.
-
+O `cancel_my_transaction.do` é um daqueles truques simples que todo dev de ServiceNow deveria conhecer. Não é mágica, mas quando você está travado e precisa continuar, ele salva o dia de verdade.
 
 ---

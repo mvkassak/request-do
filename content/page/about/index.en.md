@@ -7,7 +7,7 @@ aliases:
   - about-us
   - contact
 license: CC BY-NC-ND
-lastmod: '2020-10-09'
+lastmod: '2025-04-27 10:00:00'
 menu:
     main: 
         weight: 2
@@ -17,8 +17,12 @@ menu:
 
 ## Nice to meet you!
 
-I started with ServiceNow in mid-2016 when a friend introduced me to the platform, which was already growing significantly at that time, and I took the opportunity to dive in headfirst. Today, I primarily work in Architecture and hold several certifications like CTA, x5 CIS, ITIL, and many others… My focus now is to share all the knowledge I have acquired through various communities, documentation, the old wiki, real projects, etc., so that others can solve their day-to-day problems and also be inspired to want more from this ecosystem!
+I started my journey with ServiceNow back in mid-2016, when a friend introduced me to the platform. Even then, ServiceNow was growing fast — and I decided to dive in headfirst.  
+Today, I primarily work in Architecture and hold multiple certifications, including CTA, five CIS certifications, ITIL, and more. I'm also honored to be recognized as a **ServiceNow MVP for two consecutive years**.
+
+My focus now is to give back — sharing the knowledge I’ve gathered from communities, documentation, the old wiki days, real-world projects, and countless hours of learning.  
+If anything I share helps you solve a day-to-day problem or inspires you to explore more of what this ecosystem has to offer, then I’m already happy.
 
 ## How can I reach out?
 
-You can drop me a message on LinkedIn, I'll be happy to chat.
+Feel free to drop me a message on [LinkedIn](https://www.linkedin.com/in/mvkassak/)!

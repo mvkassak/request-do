@@ -1,5 +1,5 @@
 ---
-title: Sobre
+title: Sobre mim
 description: Um pouco da minha história
 slug: sobre-mim
 date: '2023-12-06'
@@ -7,7 +7,7 @@ aliases:
   - about-us
   - contact
 license: CC BY-NC-ND
-lastmod: '2020-10-09'
+lastmod: '2025-05-27 10:00:00'
 menu:
     main: 
         weight: 2
@@ -17,10 +17,14 @@ menu:
 
 ## Olá!
 
-Comecei em meados de 2016 com ServiceNow quando meu amigo me introduziu a essa plataforma, que já estava crescendo bastante naquela época, e peguei essa oportunidade para mergulhar de cabeça. Hoje trabalho principalmente na área de Arquitetura e tenho diversas certificações como CTA, x5 CIS, ITIL e várias outras… meu foco agora é em compartilhar todo esse conhecimento que eu consegui adquirir através de outras comunidades, docs, antiga wiki, projetos reais e etc., para que outras pessoas também consigam resolver seus problemas do dia a dia e também se inspirar a querer mais desse ecossistema!
+Comecei minha jornada com ServiceNow em 2016, quando um amigo me apresentou a plataforma que já estava crescendo bastante naquela época. Aproveitei a oportunidade e mergulhei de cabeça.
 
-## Como posso entrar em contato?
+Hoje trabalho principalmente com Arquitetura e tenho algumas certificações como CTA, CIS, ITIL e outras. Também fui reconhecido como **ServiceNow MVP por dois anos seguidos**.
 
-Você pode me enviar uma mensagem pelo LinkedIn mesmo, costumo responder rápido!
+Meu foco agora é compartilhar todo o conhecimento que aprendi ao longo desses anos, seja em comunidades, documentações, na antiga wiki ou em projetos reais, pra ajudar outras pessoas a resolverem seus desafios do dia a dia e se inspirarem a também iniciar nessa jornada de compartilhar conhecimento. 
+
+## Como falar comigo?
+
+Pode me mandar uma mensagem pelo [LinkedIn](https://www.linkedin.com/in/mvkassak/), geralmente respondo rápido =)
 
 ---

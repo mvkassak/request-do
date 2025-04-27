@@ -1,10 +1,18 @@
 ---
 title: Links
 links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+  - title: ServiceNow Community
+    description: Aprenda, compartilhe e se conecte com outras pessoas!
+    website: https://www.servicenow.com/community/
+    image: https://images.icon-icons.com/2699/PNG/512/servicenow_logo_icon_168835.png
+  - title: Now Create
+    description: Precisando de uma apresentação de workshop de processos, guias, pacote de user story de um produto? O Now Create tem tudo isso e muito mais. Dá uma olhada lá!
+    website: https://learning.servicenow.com/nowcreate
+    image: https://images.icon-icons.com/2699/PNG/512/servicenow_logo_icon_168835.png
+  - title: Expert Programs
+    description: Saiba mais sobre os principais contribuidores da Comunidade, como se tornar um deles e as oportunidades para impulsionar sua carreira.
+    website: https://www.servicenow.com/community/community-expert-programs/ct-p/community-expert-programs
+    image: https://images.icon-icons.com/2699/PNG/512/servicenow_logo_icon_168835.png
 menu:
     main: 
         weight: 4
@@ -13,21 +21,3 @@ menu:
 
 comments: false
 ---
-
-To use this feature, add `links` section to frontmatter.
-
-This page's frontmatter:
-
-```yaml
-links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-  - title: TypeScript
-    description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
-    website: https://www.typescriptlang.org
-    image: ts-logo-128.jpg
-```
-
-`image` field accepts both local and external images.
