@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Request.do - A ServiceNow Blog</title><link>https://request.do/pt-br/post/</link><description>Recent content in Posts on Request.do - A ServiceNow Blog</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Sun, 03 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://request.do/pt-br/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Certified Technical Architect Series</title><link>https://request.do/pt-br/p/certified-technical-architect-series/</link><pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate><guid>https://request.do/pt-br/p/certified-technical-architect-series/</guid><description>&lt;img src="https://request.do/p/certified-technical-architect-series/cta.png" alt="Featured image of post Certified Technical Architect Series" />&lt;p>Passar pelo programa do CTA é intenso, desafiador e cheio de aprendizado toda semana.&lt;/p>
+&lt;p>São tantos insights e informações que se você não anotar ou ficar esperto você perde, literalmente. Então toda semana eu tentei juntar todas as notas que eu fazia e publicar para ajudar aos que pensam em fazer a certificação também. Aqui estão algumas semanas:&lt;/p>
+&lt;h2 id="publicados">Publicados
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.linkedin.com/pulse/my-cta-series-kickoff-week-1-marcos-vin%C3%ADcius-kassak-qr8qf" target="_blank" rel="noopener"
+>Kickoff &amp;amp; Week 1 — Architect responsibilities; Presentation skills&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.linkedin.com/pulse/my-cta-series-week-2-marcos-vin%C3%ADcius-kassak-23ukf" target="_blank" rel="noopener"
+>Week 2 — CMDB / CSDM; Workshops; Value of the Platform&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.linkedin.com/pulse/my-cta-series-week-3-marcos-vin%C3%ADcius-kassak-yqjjf" target="_blank" rel="noopener"
+>Week 3 — Architecture Standards and Blueprints; Current and To-Be Architecture&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.linkedin.com/pulse/my-cta-series-week-4-marcos-vin%C3%ADcius-kassak-tcrme" target="_blank" rel="noopener"
+>Week 4 — Agile Frameworks; Technical Governance; Release &amp;amp; Instance Strategy&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.linkedin.com/pulse/my-cta-series-week-5-marcos-vin%C3%ADcius-kassak-tga4f" target="_blank" rel="noopener"
+>Week 5 — Data Strategies; Instance Data Replication; Domain Separation&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.linkedin.com/pulse/my-cta-series-week-6-marcos-vin%C3%ADcius-kassak-wif1f" target="_blank" rel="noopener"
+>Week 6 — Security Architecture; Scoped Applications&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="em-breve">Em breve
+&lt;/h2>&lt;ul>
+&lt;li>Week 7 — Security Reviews and Risk Management&lt;/li>
+&lt;li>Week 8 — Platform Health and Performance&lt;/li>
+&lt;li>Week 9 — Integration Strategies and API Management&lt;/li>
+&lt;li>Week 10 — Business Continuity and Disaster Recovery&lt;/li>
+&lt;li>Week 11 — Deployment Approaches and DevOps Practices&lt;/li>
+&lt;li>Week 12 — Final Preparation and Mock Defense&lt;/li>
+&lt;li>Capstone — What to expect and Tips&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>&lt;em>(Cada link leva até a postagem no meu LinkedIn, onde compartilho os detalhes sobre aquela semana.)&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="e-agora">E agora?
+&lt;/h2>&lt;p>Vou continuar atualizando esta página com as semanas 7–12 e a como foi o Capstone. Também recomendo dar uma olhada na &lt;a class="link" href="https://www.youtube.com/playlist?list=PLcPCD3vMj_dbPrvy0tulscQzdBrEUNuNe" target="_blank" rel="noopener"
+>playlist do Jakob Anker&lt;/a> — me ajudou bastante.&lt;/p>
+&lt;p>Se você está se preparando para o CTA, ou só tem curiosidade de entender como é o percurso, dá uma lida e me chama se tiver alguma dúvida. Espero que gostem!&lt;/p>
+&lt;hr></description></item><item><title>Desbloqueando sessões com um único comando</title><link>https://request.do/pt-br/p/desbloqueando-sess%C3%B5es-com-um-%C3%BAnico-comando/</link><pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate><guid>https://request.do/pt-br/p/desbloqueando-sess%C3%B5es-com-um-%C3%BAnico-comando/</guid><description>&lt;img src="https://request.do/p/unlocking-sessions-with-a-single-command/cover.jpg" alt="Featured image of post Desbloqueando sessões com um único comando" />&lt;p>Já viu uma barrinha amarela rodando escrito Running Transaction e aquele contador não para de subir nunca?
+Pois é, eu já vi também — principalmente quando estou rodando uns scripts meio suspeitos no background&amp;hellip;&lt;/p>
+&lt;h2 id="o-que-é-o-cancel_my_transactiondo">O que é o &lt;code>cancel_my_transaction.do&lt;/code>?
+&lt;/h2>&lt;p>É basicamente o comando que vai te salvar quando estiver em uma sessão travada por muito tempo.&lt;br>
+Quando o ServiceNow congela — normalmente por causa de uma transação que demorou demais — esse comando manda a plataforma cancelar o que está travando tudo, e assim você consegue voltar a trabalhar sem precisar dar refresh ou fazer logout.&lt;/p>
+&lt;h2 id="como-usar">Como usar
+&lt;/h2>&lt;p>É super simples:&lt;/p>
+&lt;ul>
+&lt;li>Pegue a URL atual do seu ServiceNow e adicione &lt;code>/cancel_my_transaction.do&lt;/code> no final.&lt;/li>
+&lt;li>Aperte Enter — e pronto, sua sessão deve destravar quase que na hora.&lt;/li>
+&lt;/ul>
+&lt;p>Exemplo:&lt;br>
+&lt;code>https://suainstancia.service-now.com/cancel_my_transaction.do&lt;/code>&lt;/p>
+&lt;h2 id="pontos-de-atenção">Pontos de atenção
+&lt;/h2>&lt;p>Antes de sair usando, só um aviso rápido:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Você pode perder trabalho não salvo.&lt;/strong>&lt;br>
+Se você cancelar uma transação que estava no meio de salvar ou processar dados, pode perder essas informações.&lt;/li>
+&lt;li>&lt;strong>Pode impactar workflows.&lt;/strong>&lt;br>
+Se a sessão travada fazia parte de um processo maior (como uma aprovação ou um script rodando em background), cancelar pode afetar o andamento.&lt;/li>
+&lt;/ul>
+&lt;p>Então é isso — use quando precisar, mas use com consciência.&lt;/p>
+&lt;h2 id="considerações-finais">Considerações finais
+&lt;/h2>&lt;p>O &lt;code>cancel_my_transaction.do&lt;/code> é um daqueles truques simples que todo dev de ServiceNow deveria conhecer. Não é mágica, mas quando você está travado e precisa continuar, ele salva o dia de verdade.&lt;/p>
+&lt;hr></description></item></channel></rss>

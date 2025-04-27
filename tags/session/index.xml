@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Session on Request.do - A ServiceNow Blog</title><link>https://request.do/tags/session/</link><description>Recent content in Session on Request.do - A ServiceNow Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 03 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://request.do/tags/session/index.xml" rel="self" type="application/rss+xml"/><item><title>Unlocking Sessions with a Single Command</title><link>https://request.do/p/unlocking-sessions-with-a-single-command/</link><pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate><guid>https://request.do/p/unlocking-sessions-with-a-single-command/</guid><description>&lt;img src="https://request.do/p/unlocking-sessions-with-a-single-command/cover.jpg" alt="Featured image of post Unlocking Sessions with a Single Command" />&lt;p>Have you ever been stuck mid-action in ServiceNow, with the whole session frozen and unresponsive? Yeah, me too — especially when running shady scripts in the background&amp;hellip;&lt;/p>
+&lt;h2 id="what-is-cancel_my_transactiondo">What is &lt;code>cancel_my_transaction.do&lt;/code>?
+&lt;/h2>&lt;p>It’s basically a &amp;ldquo;get out of jail free&amp;rdquo; card for frozen sessions.&lt;br>
+When ServiceNow locks up — usually because of a long-running transaction — this command tells the platform to cancel whatever is stuck, so you can get back to work without needing to refresh or log out.&lt;/p>
+&lt;h2 id="how-to-use-it">How to Use It
+&lt;/h2>&lt;p>Super simple:&lt;/p>
+&lt;ul>
+&lt;li>Take your current ServiceNow URL and add &lt;code>/cancel_my_transaction.do&lt;/code> at the end.&lt;/li>
+&lt;li>Hit Enter, and that’s it — your session should unlock almost instantly.&lt;/li>
+&lt;/ul>
+&lt;p>Example:&lt;br>
+&lt;code>https://yourinstance.service-now.com/cancel_my_transaction.do&lt;/code>&lt;/p>
+&lt;h2 id="a-few-things-to-watch-out-for">A Few Things to Watch Out For
+&lt;/h2>&lt;p>Before you make this part of your regular toolkit, a quick heads-up:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>You might lose unsaved work.&lt;/strong>&lt;br>
+If you cancel a transaction that was in the middle of saving or processing data, that work is gone.&lt;/li>
+&lt;li>&lt;strong>It can interrupt workflows.&lt;/strong>&lt;br>
+If your frozen session was tied to a bigger process (like an approval flow or background script), canceling it might have ripple effects.&lt;/li>
+&lt;/ul>
+&lt;p>So yeah — use it when you need it, but use it thoughtfully.&lt;/p>
+&lt;h2 id="final-thoughts">Final Thoughts
+&lt;/h2>&lt;p>&lt;code>cancel_my_transaction.do&lt;/code> is one of those low-key lifesavers that every ServiceNow user should know about.&lt;br>
+It’s not magic, but when you’re stuck and don’t want to lose your momentum, it can feel pretty close.&lt;/p>
+&lt;hr></description></item></channel></rss>
