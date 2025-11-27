@@ -1,5 +1,5 @@
 ---
-title: What to do when your instances are almost at Cloud Storage Capacity
+title: Stuck near storage limits? Here’s what helped me
 description:
 date: '2025-11-24'
 categories:
