@@ -1,5 +1,5 @@
 ---
-title: Finding the real size of your ServiceNow instance
+title: What to do when your instances are almost at Cloud Storage Capacity
 description:
 date: '2025-11-24'
 categories:
