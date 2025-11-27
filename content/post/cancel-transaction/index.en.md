@@ -2,7 +2,6 @@
 title: Unlocking Sessions with a Single Command
 description: 
 date: '2023-12-03'
-image: cover.jpg
 categories:
     - Quick tips
 tags:

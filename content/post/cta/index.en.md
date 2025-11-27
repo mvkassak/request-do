@@ -2,7 +2,6 @@
 title: Certified Technical Architect Series
 description:
 date: '2024-03-03'
-image: cta.png
 categories:
     - Career
 tags:

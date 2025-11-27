@@ -2,7 +2,6 @@
 title: Desbloqueando sessões com um único comando
 description:
 date: '2023-12-03'
-image: cover.jpg
 categories:
     - Dicas
 tags:
