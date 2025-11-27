@@ -1,5 +1,5 @@
 ---
-title: Unlocking Sessions with a Single Command
+title: A simple way to unlock a frozen session
 description: 
 date: '2023-12-03'
 categories:
@@ -8,37 +8,33 @@ tags:
     - Session
 ---
 
-Have you ever been stuck mid-action in ServiceNow, with the whole session frozen and unresponsive?  Yeah, me too — especially when running shady scripts in the background...  
+Have you ever had a browser tab freeze in the middle of something in ServiceNow? It usually happens when a script takes longer than expected or a form tries to process more than it should. The page stops responding, and you sit there wondering if you should refresh or open incognito.
 
-## What is `cancel_my_transaction.do`?
+There’s a small command that can save you in these moments: `cancel_my_transaction.do`.
 
-It’s basically a "get out of jail free" card for frozen sessions.  
-When ServiceNow locks up — usually because of a long-running transaction — this command tells the platform to cancel whatever is stuck, so you can get back to work without needing to refresh or log out.
+## What it does
 
-## How to Use It
+When your session gets stuck, ServiceNow is usually busy running a transaction in the background. This endpoint tells the platform to stop whatever is running so the session can recover. No need to reload the whole page or log in again.
 
-Super simple:
+## How to use it
 
-- Take your current ServiceNow URL and add `/cancel_my_transaction.do` at the end.
-- Hit Enter, and that’s it — your session should unlock almost instantly.
+- Take the URL of the tab that froze.  
+- Add `/cancel_my_transaction.do` at the end.  
+- Press Enter.  
 
 Example:  
 `https://yourinstance.service-now.com/cancel_my_transaction.do`
 
-## A Few Things to Watch Out For
+If the issue was caused by a long-running transaction, the session unlocks right away.
 
-Before you make this part of your regular toolkit, a quick heads-up:
+## Before you rely on it
 
-- **You might lose unsaved work.**  
-  If you cancel a transaction that was in the middle of saving or processing data, that work is gone.
-- **It can interrupt workflows.**  
-  If your frozen session was tied to a bigger process (like an approval flow or background script), canceling it might have ripple effects.
+There are a few things to keep in mind:
 
-So yeah — use it when you need it, but use it thoughtfully.
+- Canceling a transaction can drop any work that wasn’t saved.  
+- If the action was part of a bigger process, stopping it might leave that process incomplete.  
+- It’s a recovery tool, not something you should use to skip slow operations on purpose.
 
-## Final Thoughts
+## Closing thoughts
 
-`cancel_my_transaction.do` is one of those low-key lifesavers that every ServiceNow user should know about.  
-It’s not magic, but when you’re stuck and don’t want to lose your momentum, it can feel pretty close.
-
----
+This little endpoint won’t solve every freeze, but it helps when you’re stuck and don’t want to start over. It’s a small trick that makes life easier when you work on the platform every day.

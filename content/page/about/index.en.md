@@ -15,14 +15,16 @@ menu:
             icon: user
 ---
 
-## Nice to meet you!
+## Hey, I’m Marcos
 
-I started my journey with ServiceNow back in mid-2016, when a friend introduced me to the platform. Even then, ServiceNow was growing fast — and I decided to dive in headfirst.  
-Today, I primarily work in Architecture and hold multiple certifications, including CTA, five CIS certifications, ITIL, and more. I'm also honored to be recognized as a **ServiceNow MVP for two consecutive years**.
+I’ve been working with ServiceNow since 2016, back when I had no idea this platform would shape my entire career. A friend showed it to me, I got curious, and before I noticed I was building my first catalog items and trying to understand how the platform even worked.
 
-My focus now is to give back — sharing the knowledge I’ve gathered from communities, documentation, the old wiki days, real-world projects, and countless hours of learning.  
-If anything I share helps you solve a day-to-day problem or inspires you to explore more of what this ecosystem has to offer, then I’m already happy.
+Fast-forward to today: I focus on Architecture, help teams design solutions that actually make sense, and try to keep things simple even in complex environments. Along the way I picked up certifications like the CTA, multiple CIS, ITIL, and a few others. I’m also a two‑time ServiceNow MVP, which still feels unreal to say out loud.
 
-## How can I reach out?
+This blog is where I share what I learn. Real projects. Real problems. Things that helped me and might help you too. If you work with the platform every day, you know how valuable it is to find a clear explanation at the right moment.
 
-Feel free to drop me a message on [LinkedIn](https://www.linkedin.com/in/mvkassak/)!
+## Want to connect?
+
+The easiest place to reach me is [LinkedIn](https://www.linkedin.com/in/mvkassak/).
+
+Happy to talk, share ideas, or just connect with people who enjoy this world as much as I do.
