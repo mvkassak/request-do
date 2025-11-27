@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Instance Health on Request.do - A ServiceNow Blog</title><link>https://request.do/tags/instance-health/</link><description>Recent content in Instance Health on Request.do - A ServiceNow Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 24 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://request.do/tags/instance-health/index.xml" rel="self" type="application/rss+xml"/><item><title>Stuck near storage limits? Here’s what helped me</title><link>https://request.do/p/stuck-near-storage-limits-heres-what-helped-me/</link><pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate><guid>https://request.do/p/stuck-near-storage-limits-heres-what-helped-me/</guid><description>&lt;p&gt;I ran into a problem recently where lower environments were running out of space. Clones were slow, storage was high, and nothing pointed to the real reason. Production looked normal, but the other instances were struggling.&lt;/p&gt;
+&lt;p&gt;The root cause was not obvious. The usual tables were fine. Attachments were stable. Logs were under control. Something else was pushing storage up. That’s when I found two Support Portal catalog items that helped me see everything clearly: &lt;strong&gt;Database Footprint&lt;/strong&gt; and &lt;strong&gt;Cloud usage request&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://request.do/p/stuck-near-storage-limits-heres-what-helped-me/image.png"
+width="1388"
+height="576"
+srcset="https://request.do/p/stuck-near-storage-limits-heres-what-helped-me/image_hu_4068b9a876d64821.png 480w, https://request.do/p/stuck-near-storage-limits-heres-what-helped-me/image_hu_db59f4df2a693ce4.png 1024w"
+loading="lazy"
+alt="Database Footprint and Cloud usage request items"
+class="gallery-image"
+data-flex-grow="240"
+data-flex-basis="578px"
+&gt;&lt;/p&gt;
+&lt;h2 id="database-footprint"&gt;Database Footprint
+&lt;/h2&gt;&lt;p&gt;This report shows the largest tables in your instance. It gives you:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Table name&lt;/li&gt;
+&lt;li&gt;Table size (GB)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When I ran it, I noticed something odd. Archiving tables were huge. Much larger than they should be. These tables were fine in production, but cloning everything into lower environments turned them into the main problem.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://request.do/p/stuck-near-storage-limits-heres-what-helped-me/image-1.png"
+width="1776"
+height="1000"
+srcset="https://request.do/p/stuck-near-storage-limits-heres-what-helped-me/image-1_hu_e46d97571dfaeb59.png 480w, https://request.do/p/stuck-near-storage-limits-heres-what-helped-me/image-1_hu_4bce9fa11a512460.png 1024w"
+loading="lazy"
+alt="alt text"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+&gt;&lt;/p&gt;
+&lt;h2 id="cloud-usage"&gt;Cloud Usage
+&lt;/h2&gt;&lt;p&gt;After that, I used the Cloud usage request item. It confirmed the spike. The database layer kept growing because archives followed every clone into all environments.&lt;/p&gt;
+&lt;p&gt;The report helped me see:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Instance name&lt;/li&gt;
+&lt;li&gt;Instance purpose (Prod or sub-prod)&lt;/li&gt;
+&lt;li&gt;Instance deployment (Shared or not)&lt;/li&gt;
+&lt;li&gt;Created On (Date instance was deployed)&lt;/li&gt;
+&lt;li&gt;Date as Of (Current date)&lt;/li&gt;
+&lt;li&gt;Usage in TB (Size)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="the-fix"&gt;The fix
+&lt;/h2&gt;&lt;p&gt;Once we saw the cause, the fix was clear. We moved all archiving tables to the clone exclusion list and kept them only in production, which is the only place where people actually use this data. For lower environments, we applied Destroy Rules to clear the archived records we didn’t need.&lt;/p&gt;
+&lt;p&gt;After the cleanup, we opened a Support ticket and asked ServiceNow to run a database defrag. That step helped us reclaim even more space once the Destroy Rules finished their work.&lt;/p&gt;
+&lt;p&gt;Lower environments stay clean. Clones are smaller. Storage drops. Performance improves.&lt;/p&gt;
+&lt;h2 id="what-you-can-check-today"&gt;What you can check today
+&lt;/h2&gt;&lt;p&gt;If you want to look at your own instance, start with these simple actions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Largest tables using Database Footprint Catalog Item&lt;/li&gt;
+&lt;li&gt;Current instance storage using the Cloud Storage Catalog Item&lt;/li&gt;
+&lt;li&gt;Audit and log retention&lt;/li&gt;
+&lt;li&gt;Tables that don’t need to be cloned to lower enviroments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With all these in your hands, you can easily draw a plan to keep your instances clean!&lt;/p&gt;</description></item></channel></rss>

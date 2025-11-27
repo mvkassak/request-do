@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Request.do - A ServiceNow Blog</title><link>https://request.do/post/</link><description>Recent content in Posts on Request.do - A ServiceNow Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 24 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://request.do/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Stuck near storage limits? Here’s what helped me</title><link>https://request.do/p/stuck-near-storage-limits-heres-what-helped-me/</link><pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate><guid>https://request.do/p/stuck-near-storage-limits-heres-what-helped-me/</guid><description>&lt;p&gt;I ran into a problem recently where lower environments were running out of space. Clones were slow, storage was high, and nothing pointed to the real reason. Production looked normal, but the other instances were struggling.&lt;/p&gt;
+&lt;p&gt;The root cause was not obvious. The usual tables were fine. Attachments were stable. Logs were under control. Something else was pushing storage up. That’s when I found two Support Portal catalog items that helped me see everything clearly: &lt;strong&gt;Database Footprint&lt;/strong&gt; and &lt;strong&gt;Cloud usage request&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://request.do/p/stuck-near-storage-limits-heres-what-helped-me/image.png"
+width="1388"
+height="576"
+srcset="https://request.do/p/stuck-near-storage-limits-heres-what-helped-me/image_hu_4068b9a876d64821.png 480w, https://request.do/p/stuck-near-storage-limits-heres-what-helped-me/image_hu_db59f4df2a693ce4.png 1024w"
+loading="lazy"
+alt="Database Footprint and Cloud usage request items"
+class="gallery-image"
+data-flex-grow="240"
+data-flex-basis="578px"
+&gt;&lt;/p&gt;
+&lt;h2 id="database-footprint"&gt;Database Footprint
+&lt;/h2&gt;&lt;p&gt;This report shows the largest tables in your instance. It gives you:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Table name&lt;/li&gt;
+&lt;li&gt;Table size (GB)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When I ran it, I noticed something odd. Archiving tables were huge. Much larger than they should be. These tables were fine in production, but cloning everything into lower environments turned them into the main problem.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://request.do/p/stuck-near-storage-limits-heres-what-helped-me/image-1.png"
+width="1776"
+height="1000"
+srcset="https://request.do/p/stuck-near-storage-limits-heres-what-helped-me/image-1_hu_e46d97571dfaeb59.png 480w, https://request.do/p/stuck-near-storage-limits-heres-what-helped-me/image-1_hu_4bce9fa11a512460.png 1024w"
+loading="lazy"
+alt="alt text"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+&gt;&lt;/p&gt;
+&lt;h2 id="cloud-usage"&gt;Cloud Usage
+&lt;/h2&gt;&lt;p&gt;After that, I used the Cloud usage request item. It confirmed the spike. The database layer kept growing because archives followed every clone into all environments.&lt;/p&gt;
+&lt;p&gt;The report helped me see:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Instance name&lt;/li&gt;
+&lt;li&gt;Instance purpose (Prod or sub-prod)&lt;/li&gt;
+&lt;li&gt;Instance deployment (Shared or not)&lt;/li&gt;
+&lt;li&gt;Created On (Date instance was deployed)&lt;/li&gt;
+&lt;li&gt;Date as Of (Current date)&lt;/li&gt;
+&lt;li&gt;Usage in TB (Size)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="the-fix"&gt;The fix
+&lt;/h2&gt;&lt;p&gt;Once we saw the cause, the fix was clear. We moved all archiving tables to the clone exclusion list and kept them only in production, which is the only place where people actually use this data. For lower environments, we applied Destroy Rules to clear the archived records we didn’t need.&lt;/p&gt;
+&lt;p&gt;After the cleanup, we opened a Support ticket and asked ServiceNow to run a database defrag. That step helped us reclaim even more space once the Destroy Rules finished their work.&lt;/p&gt;
+&lt;p&gt;Lower environments stay clean. Clones are smaller. Storage drops. Performance improves.&lt;/p&gt;
+&lt;h2 id="what-you-can-check-today"&gt;What you can check today
+&lt;/h2&gt;&lt;p&gt;If you want to look at your own instance, start with these simple actions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Largest tables using Database Footprint Catalog Item&lt;/li&gt;
+&lt;li&gt;Current instance storage using the Cloud Storage Catalog Item&lt;/li&gt;
+&lt;li&gt;Audit and log retention&lt;/li&gt;
+&lt;li&gt;Tables that don’t need to be cloned to lower enviroments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With all these in your hands, you can easily draw a plan to keep your instances clean!&lt;/p&gt;</description></item><item><title>A simple way to unlock a frozen session</title><link>https://request.do/p/a-simple-way-to-unlock-a-frozen-session/</link><pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate><guid>https://request.do/p/a-simple-way-to-unlock-a-frozen-session/</guid><description>&lt;p&gt;Have you ever had a browser tab freeze in the middle of something in ServiceNow? It usually happens when a script takes longer than expected or a form tries to process more than it should. The page stops responding, and you sit there wondering if you should refresh or open incognito.&lt;/p&gt;
+&lt;p&gt;There’s a small command that can save you in these moments: &lt;code&gt;cancel_my_transaction.do&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id="what-it-does"&gt;What it does
+&lt;/h2&gt;&lt;p&gt;When your session gets stuck, ServiceNow is usually busy running a transaction in the background. This endpoint tells the platform to stop whatever is running so the session can recover. No need to reload the whole page or log in again.&lt;/p&gt;
+&lt;h2 id="how-to-use-it"&gt;How to use it
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Take the URL of the tab that froze.&lt;/li&gt;
+&lt;li&gt;Add &lt;code&gt;/cancel_my_transaction.do&lt;/code&gt; at the end.&lt;/li&gt;
+&lt;li&gt;Press Enter.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Example:&lt;br&gt;
+&lt;code&gt;https://yourinstance.service-now.com/cancel_my_transaction.do&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;If the issue was caused by a long-running transaction, the session unlocks right away.&lt;/p&gt;
+&lt;h2 id="before-you-rely-on-it"&gt;Before you rely on it
+&lt;/h2&gt;&lt;p&gt;There are a few things to keep in mind:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Canceling a transaction can drop any work that wasn’t saved.&lt;/li&gt;
+&lt;li&gt;If the action was part of a bigger process, stopping it might leave that process incomplete.&lt;/li&gt;
+&lt;li&gt;It’s a recovery tool, not something you should use to skip slow operations on purpose.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="closing-thoughts"&gt;Closing thoughts
+&lt;/h2&gt;&lt;p&gt;This little endpoint won’t solve every freeze, but it helps when you’re stuck and don’t want to start over. It’s a small trick that makes life easier when you work on the platform every day.&lt;/p&gt;</description></item><item><title>Certified Technical Architect Series</title><link>https://request.do/p/certified-technical-architect-series/</link><pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate><guid>https://request.do/p/certified-technical-architect-series/</guid><description>&lt;p&gt;Going through the CTA program is intense, challenging, and full of learning every week.&lt;/p&gt;
+&lt;p&gt;While I was enrolled, every week I was taking valuable notes throughout the meetings and I&amp;rsquo;m sharing them here to help in your journey as well. Feel free to comment and add more information that could be valuable to others.&lt;/p&gt;
+&lt;h2 id="published"&gt;Published
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="link" href="https://www.linkedin.com/pulse/my-cta-series-kickoff-week-1-marcos-vin%C3%ADcius-kassak-qr8qf" target="_blank" rel="noopener"
+&gt;Kickoff &amp;amp; Week 1 — Architect responsibilities; Presentation skills&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://www.linkedin.com/pulse/my-cta-series-week-2-marcos-vin%C3%ADcius-kassak-23ukf" target="_blank" rel="noopener"
+&gt;Week 2 — CMDB / CSDM; Workshops; Value of the Platform&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://www.linkedin.com/pulse/my-cta-series-week-3-marcos-vin%C3%ADcius-kassak-yqjjf" target="_blank" rel="noopener"
+&gt;Week 3 — Architecture Standards and Blueprints; Current and To-Be Architecture&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://www.linkedin.com/pulse/my-cta-series-week-4-marcos-vin%C3%ADcius-kassak-tcrme" target="_blank" rel="noopener"
+&gt;Week 4 — Agile Frameworks; Technical Governance; Release &amp;amp; Instance Strategy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://www.linkedin.com/pulse/my-cta-series-week-5-marcos-vin%C3%ADcius-kassak-tga4f" target="_blank" rel="noopener"
+&gt;Week 5 — Data Strategies; Instance Data Replication; Domain Separation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://www.linkedin.com/pulse/my-cta-series-week-6-marcos-vin%C3%ADcius-kassak-wif1f" target="_blank" rel="noopener"
+&gt;Week 6 — Security Architecture; Scoped Applications&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="to-be-published"&gt;To be published
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Week 7 — Security Reviews and Risk Management&lt;/li&gt;
+&lt;li&gt;Week 8 — Platform Health and Performance&lt;/li&gt;
+&lt;li&gt;Week 9 — Integration Strategies and API Management&lt;/li&gt;
+&lt;li&gt;Week 10 — Business Continuity and Disaster Recovery&lt;/li&gt;
+&lt;li&gt;Week 11 — Deployment Approaches and DevOps Practices&lt;/li&gt;
+&lt;li&gt;Week 12 — Final Preparation and Mock Defense&lt;/li&gt;
+&lt;li&gt;Capstone — What to expect and Tips&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;(Each link will take you to my LinkedIn post where I shared detailed thoughts for that week.)&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="whats-next"&gt;What&amp;rsquo;s next
+&lt;/h2&gt;&lt;p&gt;I&amp;rsquo;ll continue updating this page with weeks 7–12 reflections and my Capstone experience. I also recommend checking out Jakob Anker’s &lt;a class="link" href="https://www.youtube.com/playlist?list=PLcPCD3vMj_dbPrvy0tulscQzdBrEUNuNe" target="_blank" rel="noopener"
+&gt;playlist&lt;/a&gt; — it helped me a lot throughout the way.&lt;/p&gt;
+&lt;p&gt;If you’re preparing for your own CTA, or just curious about what the path looks like, give it a read and reach out in case you have any questions!&lt;/p&gt;
+&lt;hr&gt;</description></item></channel></rss>
