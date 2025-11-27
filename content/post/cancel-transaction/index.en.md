@@ -1,7 +1,7 @@
 ---
 title: A simple way to unlock a frozen session
 description: 
-date: '2023-12-03'
+date: '2025-11-20'
 categories:
     - Quick tips
 tags:
