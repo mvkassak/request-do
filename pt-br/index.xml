@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Request.do - A ServiceNow Blog</title><link>https://request.do/pt-br/</link><description>Recent content on Request.do - A ServiceNow Blog</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Tue, 27 May 2025 10:00:00 +0000</lastBuildDate><atom:link href="https://request.do/pt-br/index.xml" rel="self" type="application/rss+xml"/><item><title>Certified Technical Architect Series</title><link>https://request.do/pt-br/p/certified-technical-architect-series/</link><pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate><guid>https://request.do/pt-br/p/certified-technical-architect-series/</guid><description>&lt;p&gt;Passar pelo programa do CTA é intenso, desafiador e cheio de aprendizado toda semana.&lt;/p&gt;
+&lt;p&gt;São tantos insights e informações que se você não anotar ou ficar esperto você perde, literalmente. Então toda semana eu tentei juntar todas as notas que eu fazia e publicar para ajudar aos que pensam em fazer a certificação também. Aqui estão algumas semanas:&lt;/p&gt;
+&lt;h2 id="publicados"&gt;Publicados
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="link" href="https://www.linkedin.com/pulse/my-cta-series-kickoff-week-1-marcos-vin%C3%ADcius-kassak-qr8qf" target="_blank" rel="noopener"
+&gt;Kickoff &amp;amp; Week 1 — Architect responsibilities; Presentation skills&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://www.linkedin.com/pulse/my-cta-series-week-2-marcos-vin%C3%ADcius-kassak-23ukf" target="_blank" rel="noopener"
+&gt;Week 2 — CMDB / CSDM; Workshops; Value of the Platform&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://www.linkedin.com/pulse/my-cta-series-week-3-marcos-vin%C3%ADcius-kassak-yqjjf" target="_blank" rel="noopener"
+&gt;Week 3 — Architecture Standards and Blueprints; Current and To-Be Architecture&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://www.linkedin.com/pulse/my-cta-series-week-4-marcos-vin%C3%ADcius-kassak-tcrme" target="_blank" rel="noopener"
+&gt;Week 4 — Agile Frameworks; Technical Governance; Release &amp;amp; Instance Strategy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://www.linkedin.com/pulse/my-cta-series-week-5-marcos-vin%C3%ADcius-kassak-tga4f" target="_blank" rel="noopener"
+&gt;Week 5 — Data Strategies; Instance Data Replication; Domain Separation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://www.linkedin.com/pulse/my-cta-series-week-6-marcos-vin%C3%ADcius-kassak-wif1f" target="_blank" rel="noopener"
+&gt;Week 6 — Security Architecture; Scoped Applications&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="em-breve"&gt;Em breve
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Week 7 — Security Reviews and Risk Management&lt;/li&gt;
+&lt;li&gt;Week 8 — Platform Health and Performance&lt;/li&gt;
+&lt;li&gt;Week 9 — Integration Strategies and API Management&lt;/li&gt;
+&lt;li&gt;Week 10 — Business Continuity and Disaster Recovery&lt;/li&gt;
+&lt;li&gt;Week 11 — Deployment Approaches and DevOps Practices&lt;/li&gt;
+&lt;li&gt;Week 12 — Final Preparation and Mock Defense&lt;/li&gt;
+&lt;li&gt;Capstone — What to expect and Tips&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;(Cada link leva até a postagem no meu LinkedIn, onde compartilho os detalhes sobre aquela semana.)&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="e-agora"&gt;E agora?
+&lt;/h2&gt;&lt;p&gt;Vou continuar atualizando esta página com as semanas 7–12 e a como foi o Capstone. Também recomendo dar uma olhada na &lt;a class="link" href="https://www.youtube.com/playlist?list=PLcPCD3vMj_dbPrvy0tulscQzdBrEUNuNe" target="_blank" rel="noopener"
+&gt;playlist do Jakob Anker&lt;/a&gt; — me ajudou bastante.&lt;/p&gt;
+&lt;p&gt;Se você está se preparando para o CTA, ou só tem curiosidade de entender como é o percurso, dá uma lida e me chama se tiver alguma dúvida. Espero que gostem!&lt;/p&gt;
+&lt;hr&gt;</description></item><item><title>Sobre mim</title><link>https://request.do/pt-br/sobre-mim/</link><pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate><guid>https://request.do/pt-br/sobre-mim/</guid><description>&lt;h2 id="olá"&gt;Olá!
+&lt;/h2&gt;&lt;p&gt;Comecei minha jornada com ServiceNow em 2016, quando um amigo me apresentou a plataforma que já estava crescendo bastante naquela época. Aproveitei a oportunidade e mergulhei de cabeça.&lt;/p&gt;
+&lt;p&gt;Hoje trabalho principalmente com Arquitetura e tenho algumas certificações como CTA, CIS, ITIL e outras. Também fui reconhecido como &lt;strong&gt;ServiceNow MVP por dois anos seguidos&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Meu foco agora é compartilhar todo o conhecimento que aprendi ao longo desses anos, seja em comunidades, documentações, na antiga wiki ou em projetos reais, pra ajudar outras pessoas a resolverem seus desafios do dia a dia e se inspirarem a também iniciar nessa jornada de compartilhar conhecimento.&lt;/p&gt;
+&lt;h2 id="como-falar-comigo"&gt;Como falar comigo?
+&lt;/h2&gt;&lt;p&gt;Pode me mandar uma mensagem pelo &lt;a class="link" href="https://www.linkedin.com/in/mvkassak/" target="_blank" rel="noopener"
+&gt;LinkedIn&lt;/a&gt;, geralmente respondo rápido =)&lt;/p&gt;
+&lt;hr&gt;</description></item><item><title>Desbloqueando sessões com um único comando</title><link>https://request.do/pt-br/p/desbloqueando-sess%C3%B5es-com-um-%C3%BAnico-comando/</link><pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate><guid>https://request.do/pt-br/p/desbloqueando-sess%C3%B5es-com-um-%C3%BAnico-comando/</guid><description>&lt;p&gt;Já viu uma barrinha amarela rodando escrito Running Transaction e aquele contador não para de subir nunca?
+Pois é, eu já vi também — principalmente quando estou rodando uns scripts meio suspeitos no background&amp;hellip;&lt;/p&gt;
+&lt;h2 id="o-que-é-o-cancel_my_transactiondo"&gt;O que é o &lt;code&gt;cancel_my_transaction.do&lt;/code&gt;?
+&lt;/h2&gt;&lt;p&gt;É basicamente o comando que vai te salvar quando estiver em uma sessão travada por muito tempo.&lt;br&gt;
+Quando o ServiceNow congela — normalmente por causa de uma transação que demorou demais — esse comando manda a plataforma cancelar o que está travando tudo, e assim você consegue voltar a trabalhar sem precisar dar refresh ou fazer logout.&lt;/p&gt;
+&lt;h2 id="como-usar"&gt;Como usar
+&lt;/h2&gt;&lt;p&gt;É super simples:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pegue a URL atual do seu ServiceNow e adicione &lt;code&gt;/cancel_my_transaction.do&lt;/code&gt; no final.&lt;/li&gt;
+&lt;li&gt;Aperte Enter — e pronto, sua sessão deve destravar quase que na hora.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Exemplo:&lt;br&gt;
+&lt;code&gt;https://suainstancia.service-now.com/cancel_my_transaction.do&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id="pontos-de-atenção"&gt;Pontos de atenção
+&lt;/h2&gt;&lt;p&gt;Antes de sair usando, só um aviso rápido:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Você pode perder trabalho não salvo.&lt;/strong&gt;&lt;br&gt;
+Se você cancelar uma transação que estava no meio de salvar ou processar dados, pode perder essas informações.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pode impactar workflows.&lt;/strong&gt;&lt;br&gt;
+Se a sessão travada fazia parte de um processo maior (como uma aprovação ou um script rodando em background), cancelar pode afetar o andamento.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Então é isso — use quando precisar, mas use com consciência.&lt;/p&gt;
+&lt;h2 id="considerações-finais"&gt;Considerações finais
+&lt;/h2&gt;&lt;p&gt;O &lt;code&gt;cancel_my_transaction.do&lt;/code&gt; é um daqueles truques simples que todo dev de ServiceNow deveria conhecer. Não é mágica, mas quando você está travado e precisa continuar, ele salva o dia de verdade.&lt;/p&gt;
+&lt;hr&gt;</description></item><item><title>Arquivos</title><link>https://request.do/pt-br/arquivo/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://request.do/pt-br/arquivo/</guid><description/></item><item><title>Busca</title><link>https://request.do/pt-br/busca/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://request.do/pt-br/busca/</guid><description/></item><item><title>Links</title><link>https://request.do/pt-br/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://request.do/pt-br/links/</guid><description/></item></channel></rss>

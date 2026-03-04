@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Session on Request.do - A ServiceNow Blog</title><link>https://request.do/tags/session/</link><description>Recent content in Session on Request.do - A ServiceNow Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 20 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://request.do/tags/session/index.xml" rel="self" type="application/rss+xml"/><item><title>A simple way to unlock a frozen session</title><link>https://request.do/p/a-simple-way-to-unlock-a-frozen-session/</link><pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate><guid>https://request.do/p/a-simple-way-to-unlock-a-frozen-session/</guid><description>&lt;p&gt;Have you ever had a browser tab freeze in the middle of something in ServiceNow? It usually happens when a script takes longer than expected or a form tries to process more than it should. The page stops responding, and you sit there wondering if you should refresh or open incognito.&lt;/p&gt;
+&lt;p&gt;There’s a small command that can save you in these moments: &lt;code&gt;cancel_my_transaction.do&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id="what-it-does"&gt;What it does
+&lt;/h2&gt;&lt;p&gt;When your session gets stuck, ServiceNow is usually busy running a transaction in the background. This endpoint tells the platform to stop whatever is running so the session can recover. No need to reload the whole page or log in again.&lt;/p&gt;
+&lt;h2 id="how-to-use-it"&gt;How to use it
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Take the URL of the tab that froze.&lt;/li&gt;
+&lt;li&gt;Add &lt;code&gt;/cancel_my_transaction.do&lt;/code&gt; at the end.&lt;/li&gt;
+&lt;li&gt;Press Enter.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Example:&lt;br&gt;
+&lt;code&gt;https://yourinstance.service-now.com/cancel_my_transaction.do&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;If the issue was caused by a long-running transaction, the session unlocks right away.&lt;/p&gt;
+&lt;h2 id="before-you-rely-on-it"&gt;Before you rely on it
+&lt;/h2&gt;&lt;p&gt;There are a few things to keep in mind:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Canceling a transaction can drop any work that wasn’t saved.&lt;/li&gt;
+&lt;li&gt;If the action was part of a bigger process, stopping it might leave that process incomplete.&lt;/li&gt;
+&lt;li&gt;It’s a recovery tool, not something you should use to skip slow operations on purpose.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="closing-thoughts"&gt;Closing thoughts
+&lt;/h2&gt;&lt;p&gt;This little endpoint won’t solve every freeze, but it helps when you’re stuck and don’t want to start over. It’s a small trick that makes life easier when you work on the platform every day.&lt;/p&gt;</description></item></channel></rss>

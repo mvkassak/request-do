@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sessão on Request.do - A ServiceNow Blog</title><link>https://request.do/pt-br/tags/sess%C3%A3o/</link><description>Recent content in Sessão on Request.do - A ServiceNow Blog</description><generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Sun, 03 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://request.do/pt-br/tags/sess%C3%A3o/index.xml" rel="self" type="application/rss+xml"/><item><title>Desbloqueando sessões com um único comando</title><link>https://request.do/pt-br/p/desbloqueando-sess%C3%B5es-com-um-%C3%BAnico-comando/</link><pubDate>Sun, 03 Dec 2023 00:00:00 +0000</pubDate><guid>https://request.do/pt-br/p/desbloqueando-sess%C3%B5es-com-um-%C3%BAnico-comando/</guid><description>&lt;p&gt;Já viu uma barrinha amarela rodando escrito Running Transaction e aquele contador não para de subir nunca?
+Pois é, eu já vi também — principalmente quando estou rodando uns scripts meio suspeitos no background&amp;hellip;&lt;/p&gt;
+&lt;h2 id="o-que-é-o-cancel_my_transactiondo"&gt;O que é o &lt;code&gt;cancel_my_transaction.do&lt;/code&gt;?
+&lt;/h2&gt;&lt;p&gt;É basicamente o comando que vai te salvar quando estiver em uma sessão travada por muito tempo.&lt;br&gt;
+Quando o ServiceNow congela — normalmente por causa de uma transação que demorou demais — esse comando manda a plataforma cancelar o que está travando tudo, e assim você consegue voltar a trabalhar sem precisar dar refresh ou fazer logout.&lt;/p&gt;
+&lt;h2 id="como-usar"&gt;Como usar
+&lt;/h2&gt;&lt;p&gt;É super simples:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pegue a URL atual do seu ServiceNow e adicione &lt;code&gt;/cancel_my_transaction.do&lt;/code&gt; no final.&lt;/li&gt;
+&lt;li&gt;Aperte Enter — e pronto, sua sessão deve destravar quase que na hora.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Exemplo:&lt;br&gt;
+&lt;code&gt;https://suainstancia.service-now.com/cancel_my_transaction.do&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id="pontos-de-atenção"&gt;Pontos de atenção
+&lt;/h2&gt;&lt;p&gt;Antes de sair usando, só um aviso rápido:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Você pode perder trabalho não salvo.&lt;/strong&gt;&lt;br&gt;
+Se você cancelar uma transação que estava no meio de salvar ou processar dados, pode perder essas informações.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pode impactar workflows.&lt;/strong&gt;&lt;br&gt;
+Se a sessão travada fazia parte de um processo maior (como uma aprovação ou um script rodando em background), cancelar pode afetar o andamento.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Então é isso — use quando precisar, mas use com consciência.&lt;/p&gt;
+&lt;h2 id="considerações-finais"&gt;Considerações finais
+&lt;/h2&gt;&lt;p&gt;O &lt;code&gt;cancel_my_transaction.do&lt;/code&gt; é um daqueles truques simples que todo dev de ServiceNow deveria conhecer. Não é mágica, mas quando você está travado e precisa continuar, ele salva o dia de verdade.&lt;/p&gt;
+&lt;hr&gt;</description></item></channel></rss>
