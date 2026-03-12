@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>UI/UX on Request.do - A ServiceNow Blog</title><link>https://request.do/tags/ui/ux/</link><description>Recent content in UI/UX on Request.do - A ServiceNow Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 10 Mar 2026 11:49:34 +0000</lastBuildDate><atom:link href="https://request.do/tags/ui/ux/index.xml" rel="self" type="application/rss+xml"/><item><title>Where did NowCreate go? A guide to ServiceNow's design and best practices portals</title><link>https://request.do/p/where-did-nowcreate-go/</link><pubDate>Fri, 06 Mar 2026 13:10:31 +0000</pubDate><guid>https://request.do/p/where-did-nowcreate-go/</guid><description>&lt;h2 id="if-youre-looking-for-nowcreate-its-gone"&gt;If you&amp;rsquo;re looking for NowCreate, it&amp;rsquo;s gone
+&lt;/h2&gt;&lt;p&gt;ServiceNow retired NowCreate around December 2025 with no big announcement or countdowns. One day the links just started redirecting somewhere else, and if you had bookmarks saved (like most of us did), they all pointed to a different place.&lt;/p&gt;
+&lt;p&gt;NowCreate was the go-to for implementation assets. Success packs, process guides, catalog templates, KPI documents. If you were setting up ITSM, CSM, or pretty much any product, you probably had a NowCreate bookmark somewhere.&lt;/p&gt;
+&lt;p&gt;Everything now redirects to the Best Practices portal, but there&amp;rsquo;s also a design portal most people don&amp;rsquo;t even know about. So let me break it down for you.&lt;/p&gt;
+&lt;h2 id="best-practices-the-nowcreate-replacement"&gt;Best Practices: the NowCreate replacement
+&lt;/h2&gt;&lt;p&gt;ServiceNow moved everything to the &lt;strong&gt;Best Practices portal&lt;/strong&gt; at mynow.servicenow.com/now/best-practices. That&amp;rsquo;s where your success packs, implementation guides, and process templates live now.&lt;/p&gt;
+&lt;p&gt;A few things to know about it:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Old NowCreate URLs redirect automatically, so your bookmarks should still work&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Content from the last two release families made it over&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Older assets? Some didn&amp;rsquo;t survive the move&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;There&amp;rsquo;s a &amp;ldquo;Give Feedback&amp;rdquo; button if you can&amp;rsquo;t find something specific, which tells you ServiceNow knows there are gaps&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Honestly, the portal itself is fine. Better search, cleaner organization by methodology. But the transition wasn&amp;rsquo;t exactly smooth for everyone. Some documents like &amp;ldquo;ITSM - Business Outcomes and Corresponding KPIs&amp;rdquo; and catalog item templates (the blank RITM worksheet, the request template) just disappeared.&lt;/p&gt;
+&lt;h2 id="horizon-the-portal-nobody-talks-about"&gt;Horizon: the portal nobody talks about
+&lt;/h2&gt;&lt;p&gt;Horizon has been around for a while, but I rarely see people in the community referencing it. It&amp;rsquo;s ServiceNow&amp;rsquo;s design system, sitting at horizon.servicenow.com, and it&amp;rsquo;s where all the UI/UX guidelines live.&lt;/p&gt;
+&lt;p&gt;If you build anything with a user interface on ServiceNow (portals, workspaces, mobile apps), this is where you should be looking. It covers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Design guidelines for accessibility, content design, dark mode, high contrast&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Component libraries for Workspace, Service Portal, Core UI, and Native Mobile&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Figma libraries with ready-to-use components and templates&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Pattern documentation for things like unified navigation&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you&amp;rsquo;ve ever argued with a client about how a workspace component should look or behave, Horizon is your backup. It&amp;rsquo;s the official answer to &amp;ldquo;what does ServiceNow recommend here?&amp;rdquo;&lt;/p&gt;
+&lt;h2 id="so-where-do-you-go-for-what"&gt;So where do you go for what?
+&lt;/h2&gt;&lt;p&gt;Here&amp;rsquo;s the simple breakdown:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Implementation guidance&lt;/strong&gt; (success packs, process guides, scoping): Best Practices portal&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;UI/UX design&lt;/strong&gt; (components, Figma libraries, accessibility, patterns): Horizon&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Old NowCreate assets that didn&amp;rsquo;t migrate&lt;/strong&gt;: keep reading&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="the-nowcreate-archive"&gt;The NowCreate archive
+&lt;/h2&gt;&lt;p&gt;Community member Alessandro Almeida (Giga Guru on the SN community) saw the retirement coming and downloaded nearly 1,100 assets from NowCreate before the switch. He made them all available publicly.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re looking for something that used to be on NowCreate and can&amp;rsquo;t find it on Best Practices, check his archive. He shared the link on LinkedIn along with details on what was preserved and what ServiceNow discontinued.&lt;/p&gt;
+&lt;p&gt;By the way, zero replies on his community post about this. 654 views though. The community noticed, even if nobody said thanks.&lt;/p&gt;
+&lt;h2 id="what-to-do-right-now"&gt;What to do right now
+&lt;/h2&gt;&lt;p&gt;Bookmark these three links:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Best Practices&lt;/strong&gt;: mynow.servicenow.com/now/best-practices&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Horizon Design System&lt;/strong&gt;: horizon.servicenow.com&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Alessandro&amp;rsquo;s NowCreate archive&lt;/strong&gt;: check his LinkedIn post linked in the references below&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Next time you&amp;rsquo;re starting an implementation or building a portal, you&amp;rsquo;ll know exactly where to look.&lt;/p&gt;
+&lt;h2 id="references"&gt;References
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class="link" href="https://mynow.servicenow.com/now/best-practices/home" target="_blank" rel="noopener"
+&gt;ServiceNow Best Practices portal&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class="link" href="https://horizon.servicenow.com" target="_blank" rel="noopener"
+&gt;Horizon Design System&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.servicenow.com/community/in-other-news/now-create-retirement-faqs-and-introduction-to-the-best/ba-p/3425556" target="_blank" rel="noopener"
+&gt;Now Create Retirement FAQs&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.servicenow.com/community/community-central-forum/now-create-assets/td-p/3453507" target="_blank" rel="noopener"
+&gt;Alessandro&amp;rsquo;s community post on NowCreate assets&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.linkedin.com/posts/alessandroalmeida_servicenow-activity-7407744096397651969-sAQd" target="_blank" rel="noopener"
+&gt;Alessandro&amp;rsquo;s LinkedIn post with asset archive link&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

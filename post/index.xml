@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Request.do - A ServiceNow Blog</title><link>https://request.do/post/</link><description>Recent content in Posts on Request.do - A ServiceNow Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 12 Mar 2026 13:14:02 +0000</lastBuildDate><atom:link href="https://request.do/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Where did NowCreate go? A guide to ServiceNow's design and best practices portals</title><link>https://request.do/p/where-did-nowcreate-go/</link><pubDate>Fri, 06 Mar 2026 13:10:31 +0000</pubDate><guid>https://request.do/p/where-did-nowcreate-go/</guid><description>&lt;h2 id="if-youre-looking-for-nowcreate-its-gone"&gt;If you&amp;rsquo;re looking for NowCreate, it&amp;rsquo;s gone
+&lt;/h2&gt;&lt;p&gt;ServiceNow retired NowCreate around December 2025 with no big announcement or countdowns. One day the links just started redirecting somewhere else, and if you had bookmarks saved (like most of us did), they all pointed to a different place.&lt;/p&gt;
+&lt;p&gt;NowCreate was the go-to for implementation assets. Success packs, process guides, catalog templates, KPI documents. If you were setting up ITSM, CSM, or pretty much any product, you probably had a NowCreate bookmark somewhere.&lt;/p&gt;
+&lt;p&gt;Everything now redirects to the Best Practices portal, but there&amp;rsquo;s also a design portal most people don&amp;rsquo;t even know about. So let me break it down for you.&lt;/p&gt;
+&lt;h2 id="best-practices-the-nowcreate-replacement"&gt;Best Practices: the NowCreate replacement
+&lt;/h2&gt;&lt;p&gt;ServiceNow moved everything to the &lt;strong&gt;Best Practices portal&lt;/strong&gt; at mynow.servicenow.com/now/best-practices. That&amp;rsquo;s where your success packs, implementation guides, and process templates live now.&lt;/p&gt;
+&lt;p&gt;A few things to know about it:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Old NowCreate URLs redirect automatically, so your bookmarks should still work&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Content from the last two release families made it over&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Older assets? Some didn&amp;rsquo;t survive the move&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;There&amp;rsquo;s a &amp;ldquo;Give Feedback&amp;rdquo; button if you can&amp;rsquo;t find something specific, which tells you ServiceNow knows there are gaps&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Honestly, the portal itself is fine. Better search, cleaner organization by methodology. But the transition wasn&amp;rsquo;t exactly smooth for everyone. Some documents like &amp;ldquo;ITSM - Business Outcomes and Corresponding KPIs&amp;rdquo; and catalog item templates (the blank RITM worksheet, the request template) just disappeared.&lt;/p&gt;
+&lt;h2 id="horizon-the-portal-nobody-talks-about"&gt;Horizon: the portal nobody talks about
+&lt;/h2&gt;&lt;p&gt;Horizon has been around for a while, but I rarely see people in the community referencing it. It&amp;rsquo;s ServiceNow&amp;rsquo;s design system, sitting at horizon.servicenow.com, and it&amp;rsquo;s where all the UI/UX guidelines live.&lt;/p&gt;
+&lt;p&gt;If you build anything with a user interface on ServiceNow (portals, workspaces, mobile apps), this is where you should be looking. It covers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Design guidelines for accessibility, content design, dark mode, high contrast&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Component libraries for Workspace, Service Portal, Core UI, and Native Mobile&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Figma libraries with ready-to-use components and templates&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Pattern documentation for things like unified navigation&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you&amp;rsquo;ve ever argued with a client about how a workspace component should look or behave, Horizon is your backup. It&amp;rsquo;s the official answer to &amp;ldquo;what does ServiceNow recommend here?&amp;rdquo;&lt;/p&gt;
+&lt;h2 id="so-where-do-you-go-for-what"&gt;So where do you go for what?
+&lt;/h2&gt;&lt;p&gt;Here&amp;rsquo;s the simple breakdown:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Implementation guidance&lt;/strong&gt; (success packs, process guides, scoping): Best Practices portal&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;UI/UX design&lt;/strong&gt; (components, Figma libraries, accessibility, patterns): Horizon&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Old NowCreate assets that didn&amp;rsquo;t migrate&lt;/strong&gt;: keep reading&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="the-nowcreate-archive"&gt;The NowCreate archive
+&lt;/h2&gt;&lt;p&gt;Community member Alessandro Almeida (Giga Guru on the SN community) saw the retirement coming and downloaded nearly 1,100 assets from NowCreate before the switch. He made them all available publicly.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re looking for something that used to be on NowCreate and can&amp;rsquo;t find it on Best Practices, check his archive. He shared the link on LinkedIn along with details on what was preserved and what ServiceNow discontinued.&lt;/p&gt;
+&lt;p&gt;By the way, zero replies on his community post about this. 654 views though. The community noticed, even if nobody said thanks.&lt;/p&gt;
+&lt;h2 id="what-to-do-right-now"&gt;What to do right now
+&lt;/h2&gt;&lt;p&gt;Bookmark these three links:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Best Practices&lt;/strong&gt;: mynow.servicenow.com/now/best-practices&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Horizon Design System&lt;/strong&gt;: horizon.servicenow.com&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Alessandro&amp;rsquo;s NowCreate archive&lt;/strong&gt;: check his LinkedIn post linked in the references below&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Next time you&amp;rsquo;re starting an implementation or building a portal, you&amp;rsquo;ll know exactly where to look.&lt;/p&gt;
+&lt;h2 id="references"&gt;References
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class="link" href="https://mynow.servicenow.com/now/best-practices/home" target="_blank" rel="noopener"
+&gt;ServiceNow Best Practices portal&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class="link" href="https://horizon.servicenow.com" target="_blank" rel="noopener"
+&gt;Horizon Design System&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.servicenow.com/community/in-other-news/now-create-retirement-faqs-and-introduction-to-the-best/ba-p/3425556" target="_blank" rel="noopener"
+&gt;Now Create Retirement FAQs&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.servicenow.com/community/community-central-forum/now-create-assets/td-p/3453507" target="_blank" rel="noopener"
+&gt;Alessandro&amp;rsquo;s community post on NowCreate assets&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.linkedin.com/posts/alessandroalmeida_servicenow-activity-7407744096397651969-sAQd" target="_blank" rel="noopener"
+&gt;Alessandro&amp;rsquo;s LinkedIn post with asset archive link&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Stuck near storage limits? Here's what helped me</title><link>https://request.do/p/stuck-near-storage-limits-heres-what-helped-me/</link><pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate><guid>https://request.do/p/stuck-near-storage-limits-heres-what-helped-me/</guid><description>&lt;p&gt;I ran into a problem recently where lower environments were running out of space. Clones were getting slower, storage kept climbing, and nothing pointed to the real reason. Production looked fine, but dev and test were struggling with every clone.&lt;/p&gt;
+&lt;p&gt;The usual suspects were clean. Attachments, logs, audit records, all within normal range. Something else was eating storage, and it took me longer than I&amp;rsquo;d like to admit to find it.&lt;/p&gt;
+&lt;h2 id="two-catalog-items-most-admins-dont-know-about"&gt;Two catalog items most admins don&amp;rsquo;t know about
+&lt;/h2&gt;&lt;p&gt;That&amp;rsquo;s when I found two items on the Now Support portal that changed how I approached the whole thing: Database Footprint and Cloud Usage Request. Both live under the Support Service Catalog, and I honestly wish I&amp;rsquo;d known about them earlier.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src="https://request.do/p/stuck-near-storage-limits-heres-what-helped-me/image.png"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Database Footprint gives you a breakdown of the largest tables in your instance. You pick the instance you want to check, choose how many tables to include in the results (10 to 100), and it comes back with table names and sizes in GB.&lt;/p&gt;
+&lt;p&gt;When I ran it, the answer was right there. Archiving tables (the ones prefixed with &lt;code&gt;ar_&lt;/code&gt;) were taking up way more space than expected. Not in production, where archiving actually belongs, but in every sub-production instance. Every clone was copying years of archived records into environments where nobody ever touches that data.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src="https://request.do/p/stuck-near-storage-limits-heres-what-helped-me/image-1.png"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="confirming-the-damage-with-cloud-usage"&gt;Confirming the damage with cloud usage
+&lt;/h2&gt;&lt;p&gt;I followed up with the Cloud Usage Request item to see the full picture across instances. The report shows instance name, purpose (prod or sub-prod), deployment type, creation date, and current usage in TB.&lt;/p&gt;
+&lt;p&gt;It confirmed what the footprint report showed. Sub-prod instances were bloated because of archive data that had no business being there. The storage kept growing with every clone cycle.&lt;/p&gt;
+&lt;h2 id="how-i-fixed-it"&gt;How I fixed it
+&lt;/h2&gt;&lt;p&gt;The fix was straightforward once I understood the cause. Two things:&lt;/p&gt;
+&lt;p&gt;First, I added all archiving tables to the clone exclusion list. There&amp;rsquo;s a catch here, though. ServiceNow doesn&amp;rsquo;t support wildcard patterns for clone exclusions, so you can&amp;rsquo;t just add &lt;code&gt;ar_*&lt;/code&gt; and call it a day. Each &lt;code&gt;ar_&lt;/code&gt; table needs its own entry. It&amp;rsquo;s tedious, but it&amp;rsquo;s a one-time setup.&lt;/p&gt;
+&lt;p&gt;Second, for the archive data already sitting in lower environments, I applied Destroy Rules to clear records that weren&amp;rsquo;t needed. After the cleanup finished, I opened a Support ticket and asked ServiceNow to run a database defrag on the affected instances. That step is easy to forget, but it reclaims the actual disk space after records are deleted.&lt;/p&gt;
+&lt;p&gt;Honestly, the whole thing took less than a day to implement. The hard part was figuring out where the storage was going in the first place.&lt;/p&gt;
+&lt;h2 id="what-to-check-on-your-own-instance"&gt;What to check on your own instance
+&lt;/h2&gt;&lt;p&gt;If your sub-production instances are eating through storage after every clone, here&amp;rsquo;s where I&amp;rsquo;d start:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Run the Database Footprint catalog item and sort by size. Look for any &lt;code&gt;ar_&lt;/code&gt; tables near the top.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Check your Cloud Usage report to see which instances are growing fastest.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Review your clone exclusion list. If archive tables aren&amp;rsquo;t on it, they&amp;rsquo;re being copied every time.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Look at audit and log retention policies. ServiceNow keeps a lot by default.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;One more thing: every ServiceNow instance comes with 4TB of space. If you&amp;rsquo;ve purchased extra storage, that goes into a shared pool across all instances. So a bloated sub-prod environment doesn&amp;rsquo;t just waste space on that instance, it pulls from the same pool your production uses.&lt;/p&gt;
+&lt;h2 id="references"&gt;References
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class="link" href="https://support.servicenow.com/kb?id=kb_article_view&amp;amp;sysparm_article=KB0819668" target="_blank" rel="noopener"
+&gt;How to view database footprint of an instance on Now Support&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class="link" href="https://support.servicenow.com/kb?id=kb_article_view&amp;amp;sysparm_article=KB1290155" target="_blank" rel="noopener"
+&gt;Tips for Reducing Instance Database Footprint (ServiceNow KB)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.servicenow.com/community/developer-forum/over-your-storage-limit-reducing-our-storage-footprint-our/m-p/2623398" target="_blank" rel="noopener"
+&gt;Over your storage limit? Lessons learned (SN Community)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.servicenow.com/community/servicenow-ai-platform-forum/how-to-clone-exclude-a-group-of-tables-ie-all-the-archive-tables/m-p/2379508" target="_blank" rel="noopener"
+&gt;How to clone exclude archive tables (SN Community)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>A simple way to unlock a frozen session</title><link>https://request.do/p/a-simple-way-to-unlock-a-frozen-session/</link><pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate><guid>https://request.do/p/a-simple-way-to-unlock-a-frozen-session/</guid><description>&lt;p&gt;Have you ever had a browser tab freeze in the middle of something in ServiceNow? It usually happens when a script takes longer than expected or a form tries to process more than it should. The page stops responding, and you sit there wondering if you should refresh or open incognito.&lt;/p&gt;
+&lt;p&gt;There’s a small command that can save you in these moments: &lt;code&gt;cancel_my_transaction.do&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id="what-it-does"&gt;What it does
+&lt;/h2&gt;&lt;p&gt;When your session gets stuck, ServiceNow is usually busy running a transaction in the background. This endpoint tells the platform to stop whatever is running so the session can recover. No need to reload the whole page or log in again.&lt;/p&gt;
+&lt;h2 id="how-to-use-it"&gt;How to use it
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Take the URL of the tab that froze.&lt;/li&gt;
+&lt;li&gt;Add &lt;code&gt;/cancel_my_transaction.do&lt;/code&gt; at the end.&lt;/li&gt;
+&lt;li&gt;Press Enter.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Example:&lt;br&gt;
+&lt;code&gt;https://yourinstance.service-now.com/cancel_my_transaction.do&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;If the issue was caused by a long-running transaction, the session unlocks right away.&lt;/p&gt;
+&lt;h2 id="before-you-rely-on-it"&gt;Before you rely on it
+&lt;/h2&gt;&lt;p&gt;There are a few things to keep in mind:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Canceling a transaction can drop any work that wasn’t saved.&lt;/li&gt;
+&lt;li&gt;If the action was part of a bigger process, stopping it might leave that process incomplete.&lt;/li&gt;
+&lt;li&gt;It’s a recovery tool, not something you should use to skip slow operations on purpose.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="closing-thoughts"&gt;Closing thoughts
+&lt;/h2&gt;&lt;p&gt;This little endpoint won’t solve every freeze, but it helps when you’re stuck and don’t want to start over. It’s a small trick that makes life easier when you work on the platform every day.&lt;/p&gt;</description></item><item><title>Certified Technical Architect Series</title><link>https://request.do/p/certified-technical-architect-series/</link><pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate><guid>https://request.do/p/certified-technical-architect-series/</guid><description>&lt;p&gt;Going through the CTA program is intense, challenging, and full of learning every week.&lt;/p&gt;
+&lt;p&gt;While I was enrolled, every week I was taking valuable notes throughout the meetings and I&amp;rsquo;m sharing them here to help in your journey as well. Feel free to comment and add more information that could be valuable to others.&lt;/p&gt;
+&lt;h2 id="published"&gt;Published
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="link" href="https://www.linkedin.com/pulse/my-cta-series-kickoff-week-1-marcos-vin%C3%ADcius-kassak-qr8qf" target="_blank" rel="noopener"
+&gt;Kickoff &amp;amp; Week 1 — Architect responsibilities; Presentation skills&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://www.linkedin.com/pulse/my-cta-series-week-2-marcos-vin%C3%ADcius-kassak-23ukf" target="_blank" rel="noopener"
+&gt;Week 2 — CMDB / CSDM; Workshops; Value of the Platform&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://www.linkedin.com/pulse/my-cta-series-week-3-marcos-vin%C3%ADcius-kassak-yqjjf" target="_blank" rel="noopener"
+&gt;Week 3 — Architecture Standards and Blueprints; Current and To-Be Architecture&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://www.linkedin.com/pulse/my-cta-series-week-4-marcos-vin%C3%ADcius-kassak-tcrme" target="_blank" rel="noopener"
+&gt;Week 4 — Agile Frameworks; Technical Governance; Release &amp;amp; Instance Strategy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://www.linkedin.com/pulse/my-cta-series-week-5-marcos-vin%C3%ADcius-kassak-tga4f" target="_blank" rel="noopener"
+&gt;Week 5 — Data Strategies; Instance Data Replication; Domain Separation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://www.linkedin.com/pulse/my-cta-series-week-6-marcos-vin%C3%ADcius-kassak-wif1f" target="_blank" rel="noopener"
+&gt;Week 6 — Security Architecture; Scoped Applications&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="to-be-published"&gt;To be published
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Week 7 — Security Reviews and Risk Management&lt;/li&gt;
+&lt;li&gt;Week 8 — Platform Health and Performance&lt;/li&gt;
+&lt;li&gt;Week 9 — Integration Strategies and API Management&lt;/li&gt;
+&lt;li&gt;Week 10 — Business Continuity and Disaster Recovery&lt;/li&gt;
+&lt;li&gt;Week 11 — Deployment Approaches and DevOps Practices&lt;/li&gt;
+&lt;li&gt;Week 12 — Final Preparation and Mock Defense&lt;/li&gt;
+&lt;li&gt;Capstone — What to expect and Tips&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;(Each link will take you to my LinkedIn post where I shared detailed thoughts for that week.)&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="whats-next"&gt;What&amp;rsquo;s next
+&lt;/h2&gt;&lt;p&gt;I&amp;rsquo;ll continue updating this page with weeks 7–12 reflections and my Capstone experience. I also recommend checking out Jakob Anker’s &lt;a class="link" href="https://www.youtube.com/playlist?list=PLcPCD3vMj_dbPrvy0tulscQzdBrEUNuNe" target="_blank" rel="noopener"
+&gt;playlist&lt;/a&gt; — it helped me a lot throughout the way.&lt;/p&gt;
+&lt;p&gt;If you’re preparing for your own CTA, or just curious about what the path looks like, give it a read and reach out in case you have any questions!&lt;/p&gt;
+&lt;hr&gt;</description></item></channel></rss>

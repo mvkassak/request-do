@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Instance Health on Request.do - A ServiceNow Blog</title><link>https://request.do/tags/instance-health/</link><description>Recent content in Instance Health on Request.do - A ServiceNow Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 12 Mar 2026 13:14:02 +0000</lastBuildDate><atom:link href="https://request.do/tags/instance-health/index.xml" rel="self" type="application/rss+xml"/><item><title>Stuck near storage limits? Here's what helped me</title><link>https://request.do/p/stuck-near-storage-limits-heres-what-helped-me/</link><pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate><guid>https://request.do/p/stuck-near-storage-limits-heres-what-helped-me/</guid><description>&lt;p&gt;I ran into a problem recently where lower environments were running out of space. Clones were getting slower, storage kept climbing, and nothing pointed to the real reason. Production looked fine, but dev and test were struggling with every clone.&lt;/p&gt;
+&lt;p&gt;The usual suspects were clean. Attachments, logs, audit records, all within normal range. Something else was eating storage, and it took me longer than I&amp;rsquo;d like to admit to find it.&lt;/p&gt;
+&lt;h2 id="two-catalog-items-most-admins-dont-know-about"&gt;Two catalog items most admins don&amp;rsquo;t know about
+&lt;/h2&gt;&lt;p&gt;That&amp;rsquo;s when I found two items on the Now Support portal that changed how I approached the whole thing: Database Footprint and Cloud Usage Request. Both live under the Support Service Catalog, and I honestly wish I&amp;rsquo;d known about them earlier.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src="https://request.do/p/stuck-near-storage-limits-heres-what-helped-me/image.png"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Database Footprint gives you a breakdown of the largest tables in your instance. You pick the instance you want to check, choose how many tables to include in the results (10 to 100), and it comes back with table names and sizes in GB.&lt;/p&gt;
+&lt;p&gt;When I ran it, the answer was right there. Archiving tables (the ones prefixed with &lt;code&gt;ar_&lt;/code&gt;) were taking up way more space than expected. Not in production, where archiving actually belongs, but in every sub-production instance. Every clone was copying years of archived records into environments where nobody ever touches that data.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src="https://request.do/p/stuck-near-storage-limits-heres-what-helped-me/image-1.png"
+loading="lazy"
+&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="confirming-the-damage-with-cloud-usage"&gt;Confirming the damage with cloud usage
+&lt;/h2&gt;&lt;p&gt;I followed up with the Cloud Usage Request item to see the full picture across instances. The report shows instance name, purpose (prod or sub-prod), deployment type, creation date, and current usage in TB.&lt;/p&gt;
+&lt;p&gt;It confirmed what the footprint report showed. Sub-prod instances were bloated because of archive data that had no business being there. The storage kept growing with every clone cycle.&lt;/p&gt;
+&lt;h2 id="how-i-fixed-it"&gt;How I fixed it
+&lt;/h2&gt;&lt;p&gt;The fix was straightforward once I understood the cause. Two things:&lt;/p&gt;
+&lt;p&gt;First, I added all archiving tables to the clone exclusion list. There&amp;rsquo;s a catch here, though. ServiceNow doesn&amp;rsquo;t support wildcard patterns for clone exclusions, so you can&amp;rsquo;t just add &lt;code&gt;ar_*&lt;/code&gt; and call it a day. Each &lt;code&gt;ar_&lt;/code&gt; table needs its own entry. It&amp;rsquo;s tedious, but it&amp;rsquo;s a one-time setup.&lt;/p&gt;
+&lt;p&gt;Second, for the archive data already sitting in lower environments, I applied Destroy Rules to clear records that weren&amp;rsquo;t needed. After the cleanup finished, I opened a Support ticket and asked ServiceNow to run a database defrag on the affected instances. That step is easy to forget, but it reclaims the actual disk space after records are deleted.&lt;/p&gt;
+&lt;p&gt;Honestly, the whole thing took less than a day to implement. The hard part was figuring out where the storage was going in the first place.&lt;/p&gt;
+&lt;h2 id="what-to-check-on-your-own-instance"&gt;What to check on your own instance
+&lt;/h2&gt;&lt;p&gt;If your sub-production instances are eating through storage after every clone, here&amp;rsquo;s where I&amp;rsquo;d start:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Run the Database Footprint catalog item and sort by size. Look for any &lt;code&gt;ar_&lt;/code&gt; tables near the top.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Check your Cloud Usage report to see which instances are growing fastest.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Review your clone exclusion list. If archive tables aren&amp;rsquo;t on it, they&amp;rsquo;re being copied every time.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Look at audit and log retention policies. ServiceNow keeps a lot by default.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;One more thing: every ServiceNow instance comes with 4TB of space. If you&amp;rsquo;ve purchased extra storage, that goes into a shared pool across all instances. So a bloated sub-prod environment doesn&amp;rsquo;t just waste space on that instance, it pulls from the same pool your production uses.&lt;/p&gt;
+&lt;h2 id="references"&gt;References
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class="link" href="https://support.servicenow.com/kb?id=kb_article_view&amp;amp;sysparm_article=KB0819668" target="_blank" rel="noopener"
+&gt;How to view database footprint of an instance on Now Support&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class="link" href="https://support.servicenow.com/kb?id=kb_article_view&amp;amp;sysparm_article=KB1290155" target="_blank" rel="noopener"
+&gt;Tips for Reducing Instance Database Footprint (ServiceNow KB)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.servicenow.com/community/developer-forum/over-your-storage-limit-reducing-our-storage-footprint-our/m-p/2623398" target="_blank" rel="noopener"
+&gt;Over your storage limit? Lessons learned (SN Community)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class="link" href="https://www.servicenow.com/community/servicenow-ai-platform-forum/how-to-clone-exclude-a-group-of-tables-ie-all-the-archive-tables/m-p/2379508" target="_blank" rel="noopener"
+&gt;How to clone exclude archive tables (SN Community)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
